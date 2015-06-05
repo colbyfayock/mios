@@ -1,0 +1,1892 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pointer",
+				"pointer"
+			],
+			[
+				"error",
+				"errorLen"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"drawer",
+				"drawerObjLen"
+			],
+			[
+				"reuqire",
+				"required_fields"
+			],
+			[
+				"addres",
+				"addressLen"
+			],
+			[
+				"address",
+				"address"
+			],
+			[
+				"backgoun",
+				"background-color"
+			],
+			[
+				"that",
+				"thatDrawer"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"slide",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"creat",
+				"createTrigger"
+			],
+			[
+				"content",
+				"contentDetails"
+			],
+			[
+				"Remov",
+				"removeClass"
+			],
+			[
+				"toggle",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"css",
+				"css	.css() - multiple"
+			],
+			[
+				"conten",
+				"contentDetailsLen"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"disable",
+				"disableButton"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"stlye",
+				"style	Tag"
+			],
+			[
+				"anim",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"addt",
+				"addtl_input"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"rotate-co",
+				"rotate-container"
+			],
+			[
+				"rotat",
+				"rotateObj"
+			],
+			[
+				"setTim",
+				"setTimeout"
+			],
+			[
+				"color",
+				"color_grey4"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"wpAttr",
+				"wpAttrValue"
+			],
+			[
+				"waypo",
+				"waypoint-lazy"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"undercov",
+				"undercover-trigger"
+			],
+			[
+				"under",
+				"undercover-trigger"
+			],
+			[
+				"src",
+				"src-large"
+			],
+			[
+				"grey",
+				"color_grey1"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"color_yell",
+				"color_yellow_light"
+			],
+			[
+				"clor_",
+				"color_grey5"
+			],
+			[
+				"colo_g",
+				"color_grey5"
+			],
+			[
+				"colo",
+				"color_grey4"
+			],
+			[
+				"omnit",
+				"omniture_tag"
+			],
+			[
+				"common",
+				"common_tags"
+			],
+			[
+				"url",
+				"url_redirect"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"bckgrou",
+				"background-color"
+			],
+			[
+				"sear",
+				"search_form"
+			],
+			[
+				"tex-t",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tg_",
+				"tg_new_lightgrey"
+			],
+			[
+				"tg_new",
+				"tg_new_lightgrey"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"href",
+				"href_blacklist"
+			],
+			[
+				"cur",
+				"cur	CSS - cursor: pointer;"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"thumb",
+				"thumbContainer"
+			],
+			[
+				"cloe",
+				"closest	.closest()"
+			],
+			[
+				"scrollTo",
+				"scrollToElement"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"select",
+				"selectall"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"butt0n",
+				"butt0n-grey"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"tra",
+				"transform	CSS - transform: ;"
+			],
+			[
+				"fancy",
+				"fancybox"
+			],
+			[
+				"data",
+				"dataLayer"
+			],
+			[
+				"margi-",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"wid",
+				"widows"
+			],
+			[
+				"tg",
+				"tg_account"
+			],
+			[
+				"account",
+				"accountId"
+			],
+			[
+				"ajaxC",
+				"ajaxCart"
+			],
+			[
+				"cartData",
+				"cartDataLen"
+			],
+			[
+				"refresh",
+				"refreshDetails"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"light",
+				"lighten"
+			],
+			[
+				"carousel",
+				"carouselPag"
+			],
+			[
+				"carous",
+				"carouselItem"
+			],
+			[
+				"thum",
+				"thumbContainer"
+			],
+			[
+				"carouse",
+				"carousel"
+			],
+			[
+				"carou",
+				"carouselNav"
+			],
+			[
+				"carouse-",
+				"carousel-thumb"
+			],
+			[
+				"car",
+				"carouselMain"
+			],
+			[
+				"slider-po",
+				"slider-position"
+			],
+			[
+				"sec",
+				"section_header"
+			],
+			[
+				"produc",
+				"productBlurb_p"
+			],
+			[
+				"ship",
+				"ship_method"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"quanity-bo",
+				"quantity-box2"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"sub",
+				"subcontent-secondary"
+			],
+			[
+				"grid",
+				"grid_image"
+			],
+			[
+				"righ",
+				"rightlist"
+			],
+			[
+				"rightlist",
+				"rightlist_narrow"
+			],
+			[
+				"right",
+				"rightlist_narrow"
+			],
+			[
+				"BACKGROUND",
+				"background-position"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ho",
+				"holiday-2013"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"innerfooter_col",
+				"innerfooter_column_header"
+			],
+			[
+				"inner",
+				"innerfooter"
+			],
+			[
+				"list-st",
+				"list-style"
+			],
+			[
+				"gri",
+				"grid_frame"
+			],
+			[
+				"grid_",
+				"grid_three"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"product",
+				"product_grid"
+			],
+			[
+				"pro",
+				"product_grid"
+			],
+			[
+				"sele",
+				"selector	A basic jQuery selector"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"topnav_ter",
+				"topnav_tertiary_grid"
+			],
+			[
+				"topnav_tertiary_",
+				"topnav_tertiary_column"
+			],
+			[
+				"topnavt",
+				"topnav_tertiary"
+			],
+			[
+				"mainwr",
+				"mainwrapper-bg"
+			],
+			[
+				"tg_topnav",
+				"tg_topnav_primary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/mios_icons.jsx",
+			"settings":
+			{
+				"buffer_size": 113276,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "minimal.ios.8.sublime-project",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"last_filter": "copy path",
+		"selected_items":
+		[
+			[
+				"copy path",
+				"File: Copy Path From Project"
+			],
+			[
+				"copy pat",
+				"File: Copy Path From Project"
+			],
+			[
+				"copy pa",
+				"File: Copy Path From Project"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"copy pro",
+				"File: Copy Path From Project"
+			],
+			[
+				"copy ",
+				"File: Copy Path"
+			],
+			[
+				"copy na",
+				"File: Copy Name"
+			],
+			[
+				"copy name",
+				"File: Copy Name"
+			],
+			[
+				"copy p",
+				"File: Copy Path"
+			],
+			[
+				"ranm",
+				"File: Rename"
+			],
+			[
+				"copy nam",
+				"File: Copy Name"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"cop",
+				"File: Copy Path"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"file name",
+				"File: Copy Name"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"debug",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instsa",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"copy n",
+				"File: Copy Name"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"delt",
+				"Git: Delete Tag"
+			],
+			[
+				"REN",
+				"File: Rename"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"package ",
+				"Package Control: List Packages"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"dlete",
+				"File: Delete"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"detel",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"copyn",
+				"File: Copy Name"
+			],
+			[
+				"cpoy",
+				"File: Copy Name"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"duplic",
+				"File: Duplicate"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"DUPL",
+				"File: Duplicate"
+			],
+			[
+				"name",
+				"File: Copy Name"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 363.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cfayock/Code/minimal.iOS.8"
+	],
+	"file_history":
+	[
+		"/Users/cfayock/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/cfayock/Code/minimal.iOS.8/minimal.ios.8.sublime-project",
+		"/Users/cfayock/Downloads/star-wars-preview/index.html",
+		"/Users/cfayock/Code/Sphorb/build/scss/_styles/pages/_categories.scss",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/stock_status.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/generic/generic.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/wrapper.tt2",
+		"/Users/cfayock/Code/Sphorb/js/checkout/warpspeed.js",
+		"/Users/cfayock/Code/Sphorb/templates/wrapper.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/generic/product-kit.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/sitewide/search_autocomplete.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/catlist/default.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/home.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/catlist/default.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/42.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/basic-w-productlist.html",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/basic.html",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/bestsellers.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/whatsnew.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/whereisit/results.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/order/receipt.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/product/images_carousel.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/checkout/display_checkout_screens.tt2",
+		"/Users/cfayock/Code/Sphorb/Gruntfile.js",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Template/Utils.pm",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/productwrapper.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/productwrapper.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/checkout/warpspeed.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/cart.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/checkout/address.tt2",
+		"/Users/cfayock/Code/Sphorb/js/omniture.js",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Template/Omniture.pm",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/_main.scss",
+		"/Users/cfayock/Code/Sphorb/js/jquery/jquery.placeholder.min.js",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/default.html",
+		"/Users/cfayock/Code/Sphorb/build/scss/_styles/partials/header/_nav-top-primary.scss",
+		"/Users/cfayock/Code/Sphorb/css/styles.min.css",
+		"/Users/cfayock/Code/Sphorb/build/scss/_styles/pages/_account.scss",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/account/index.tt2",
+		"/Users/cfayock/Code/Sphorb/build/scss/_global/vendor/font-awesome/_variables.scss",
+		"/Users/cfayock/Code/Sphorb/templates/pages/generic/home.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/content_blob.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/account/wishes/detail.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/account/stash/detail.tt2",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/modules/_content-details.scss",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/account/stash/list.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/order/cert_lookup/base.tt2",
+		"/Users/cfayock/Code/Sphorb/build/js/global-m.js",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/order/cert_lookup/detail.tt2",
+		"/Users/cfayock/Code/Sphorb/cgi-bin/account/stash.cgi",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/modules/_forms.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/_styles/util/_helpers.scss",
+		"/Users/cfayock/Code/Sphorb/cgi-bin/order/cert_lookup.cgi",
+		"/Users/cfayock/Code/Sphorb/build/scss/_global/settings/_fonts.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/_styles/_main.scss",
+		"/Users/cfayock/Dropbox/Creative/tinypng.jsx",
+		"/Users/cfayock/Code/minimal.iOS.8-dev/build/icons.js",
+		"/Users/cfayock/Code/minimal.iOS.8-dev/build/build-files.jsx",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Template.pm",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Content.pm",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/right_gutter.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/tabs.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/breadcrumb_variables.tt2",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Template/Breadcrumb.pm",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Breadcrumb.pm",
+		"/Users/cfayock/Code/Sphorb/templates/breadcrumb.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/generic/whatsnew.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/cart.tt2",
+		"/Users/cfayock/Desktop/build-files.jsx",
+		"/Users/cfayock/Code/Sphorb/templates/pages/cat/default-generic.tt2",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Template/SphorbProduct.pm",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/News.pm",
+		"/Users/cfayock/Code/Sphorb/build/scss/_global/settings/_colors.scss",
+		"/Users/cfayock/Code/Sphorb/templates/cart/cart_banners.tt2",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Handler/Trans/StaticHeaders.pm",
+		"/Users/cfayock/Code/Sphorb/css/styles.css",
+		"/Users/cfayock/Code/Sphorb/build/scss/_global/vendor/font-awesome/_path.scss",
+		"/Users/cfayock/Code/Sphorb/cgi-bin/gimme.cgi",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/pages/account/_wishes.scss",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/account/places.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/gimme.tt2",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Controller/SubscriptionCenter.pm",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/subscription_center/manage.tt2",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/pages/_categories.scss",
+		"/Users/cfayock/Code/Sphorb/templates/modules/page_header.tt2",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/modules/_drawer.scss",
+		"/Users/cfayock/Code/Sphorb/admin/cgi-bin/content/colors.cgi",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/generic/generic.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/subscription_center/manage.tt2",
+		"/Users/cfayock/Code/Sphorb/cgi-bin/checkout/warpspeed.cgi",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Handler/Response/API/Order.pm",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Handler/Response/API.pm",
+		"/Users/cfayock/Code/Sphorb/lib/Sphorb/Promos.pm",
+		"/Users/cfayock/Code/Sphorb/templates/modules/hero_banner.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/mobile/pages/cat/default-generic.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/sitewide/product_variables.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/navigation/top_secondary.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/generic/help.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/sitewide/wrapper-phone-chat.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/sitewide/footer.tt2",
+		"/Users/cfayock/Code/Sphorb/cgi-bin/account/login.cgi",
+		"/Users/cfayock/Code/Sphorb/templates/account/login/account_creation_web_alert.tt2",
+		"/Users/cfayock/Code/Sphorb/scss/mobile/_styles/modules/_all.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/_global/modules/_content-drawer.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/modules/_all.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/pages/_all.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/pages/_42.scss",
+		"/Users/cfayock/Code/Sphorb/scss/mobile/_styles/pages/account/_address.scss",
+		"/Users/cfayock/Code/Sphorb/scss/mobile/_styles/modules/_drawer.scss",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/images_carousel.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/modules/product_grid.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/modules/product_slider.tt2",
+		"/Users/cfayock/Code/Sphorb/templates/pages/product/social_sharing.tt2",
+		"/Users/cfayock/Code/Sphorb/js/mobile/global.js",
+		"/Users/cfayock/Code/Sphorb/package.json",
+		"/Users/cfayock/Code/Sphorb/build/js/global-d.js",
+		"/Users/cfayock/Code/Sphorb/build/scss/_styles/_settings.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/_styles/_settings.scss",
+		"/Users/cfayock/Code/Sphorb/build/scss/mobile/products.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_global/util/_mixins.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_global/modules/_all.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_global/util/_buttons.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_styles/_main.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_styles/modules/_forms.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_styles/modules/_product-tabs.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_styles/pages/_account.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_styles/pages/_cart.scss",
+		"/Users/cfayock/Code/Sphorb/scss/_styles/pages/_features.scss"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"item_[% sw_product.id %]",
+			"input",
+			"'image' => '",
+			"image",
+			"header-line",
+			"/04-maythefourth/",
+			"es/other/landing/starwarscelebration2015/",
+			"that",
+			"5/products/",
+			"id' => ",
+			"15/products/",
+			"'name' =",
+			"landing/starwarscelebration2015/",
+			"R2_D2_lighted_phone_case_square",
+			"'image' => ''",
+			"ar 25 ",
+			"});",
+			"product",
+			"Star Wars Fans Are Going To Absolutely Love These New Collectibles",
+			"	[",
+			"Actions",
+			"	Task	 ",
+			"display_bise_action",
+			"[* IF display_bise_action *]\n												<div class=\"error\">BISE</div>\n											[* END *]",
+			"email_me",
+			"display_bise_action",
+			"email",
+			"pages/product/stock_status.tt2",
+			"email_me",
+			"<select",
+			"select",
+			"[% display_bise_action = 1 %]",
+			"display_bise_action",
+			"[* ",
+			"hotbuy_data",
+			"display_bise_action",
+			"email me",
+			"email me when",
+			"display_bise_button",
+			"display_bise",
+			"display_bise_button",
+			"email me",
+			"email",
+			"use cdn",
+			"USE cdn",
+			"product_base",
+			"timmy",
+			"40 ",
+			"46 r",
+			":13 ",
+			"0 PlexM",
+			"1:32",
+			":28",
+			":32",
+			"30 ",
+			"45 ",
+			"1:51",
+			"1:34 ",
+			"21:38 ",
+			"1:54 l",
+			":49 ",
+			"21:33 ",
+			"21:",
+			"mobile/styles",
+			"jquery-",
+			".js",
+			"2015042201",
+			"/font",
+			"font/fontawesome",
+			"font/fontawesome-",
+			"[% youtube1 %]",
+			"youtube1",
+			"font/fontawesome",
+			"wishes_item_",
+			"section",
+			".tt2",
+			"wishes_item_[% sku_id %]",
+			"h6",
+			"h5",
+			"</li>",
+			"<li>",
+			"Exact",
+			"h2",
+			".tt2",
+			"sitewide-ribbon-content",
+			"sitewide-ribbon-w-detail",
+			" - ",
+			"inFolder",
+			"errorLog",
+			"errorsClean",
+			"errorLog",
+			"outfolderName",
+			"saveIcons",
+			"imgSizes",
+			"buildIcons",
+			"imgSizes",
+			"SavePNG",
+			"name: '",
+			"    {",
+			"folder_id",
+			"''",
+			"xbmc",
+			"studio",
+			"apple itunes",
+			"app_id",
+			",	app_id: ",
+			",	bundle: ",
+			"name: '",
+			"\"\n\"",
+			"\n ",
+			"\n\"",
+			"\n\"\n",
+			"	",
+			"imgSizes",
+			"inFolder",
+			"category_page",
+			"related_items",
+			"$prod",
+			"process",
+			"pages/product",
+			"generate",
+			"mbox",
+			"zoomify",
+			"savefile",
+			"font/fontaw",
+			"font/",
+			"font",
+			".woff"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@include boxsizing(",
+			"display: inline-block;",
+			"/star-wars/",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"\n",
+			"",
+			"</p><p>",
+			"'s",
+			"'",
+			"\"",
+			"",
+			".fancybox-emailme",
+			"email",
+			"\n			<div id=\"state\" class=\"form-row\">\n				<div class=\"threecol\">\n				</div>\n				<div class=\"ninecol\">\n				</div>\n			</div>",
+			"twocol",
+			"twocl",
+			"",
+			"$button_blue",
+			"$color_red_light",
+			"$color_",
+			"$tg_new_blue",
+			"$tg_new_grey2",
+			"$tg_new_grey4",
+			"$tg_new_grey5",
+			"icon-chevron-right",
+			"icon-angle-right",
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/base.css\">",
+			"		<LINK REL=\"stylesheet\" HREF=\"/css/admin.css\">",
+			"	<LINK REL=\"stylesheet\" HREF=\"/css/admin.css\">",
+			"</HEAD>",
+			"\n            <div id=\"loggedout\" class=\"logged-out\">Have an account? <a id=\"banner-loginout\" onclick=\"javascript:showlogin1(); return false\" href=\"https://[% sphorb.domain %]/brain/account/login.cgi\" title=\"Have an account? Log in here\">Log In</a></div>\n            <div id=\"loggingin\" class=\"logging-in\" style=\"display: none;\">\n            	<form action=\"https://[% sphorb.domain %]/brain/account/login.cgi\" method=\"post\">\n            		<input type=\"hidden\" name=\"a\" value=\"auth\">\n            		<input type=\"hidden\" name=\"p\" value=\"[% env.uri == '/' ? '/index.shtml' : env.uri %]\">\n            		<input type=\"hidden\" name=\"s\" value=\"[% env.self_protocol == 'https' ? 1 : 0 %]\">\n            		<input type=\"text\" class=\"mock\" name=\"un\" value=\"Email\" onblur=\"if(this.value=='')this.value='Email', this.className='mock';\" onfocus=\"if(this.value=='Email')this.value='', this.className='real';\">\n            		<input type=\"text\" id=\"mockpass1\" class=\"mock\" value=\"Password\" onFocus=\"document.getElementById('mockpass1').style.display='none'; document.getElementById('realpass1').style.display=''; document.getElementById('realpass1').focus();\">\n            		<input type=\"password\" name=\"pass\" id=\"realpass1\" class=\"real\" autocomplete=\"off\" style=\"display:none;\" onBlur=\"if(this.value=='') {document.getElementById('mockpass1').style.display=''; document.getElementById('realpass1').style.display='none';}\">\n            		<input class=\"submit\" alt=\"Log In\" type=\"image\" src=\"/images/refresh/signinsubmit.gif\">\n            	</form>\n            </div>",
+			"\n\n.content-slider-wrapper .slick-dots {\n	position: static;\n}",
+			"\n}\n\n.owl-section-wrapper .owl-theme .owl-controls .owl-page span {\n	width: 8px;\n	height: 8px;\n	opacity: 1;\n	background-color: #c6cecb;\n	margin: 5px 4px;\n}",
+			"image_path",
+			"$image_path",
+			"class=\"hippify\" data-hippi-src",
+			"<img class=\"image-primary hippify\"",
+			"<title>%%name%% | ThinkGeek</title>",
+			"<title>ThinkGeek | Stuff for Smart Masses</title>",
+			"<title>Stuff for Smart Masses | ThinkGeek</title>",
+			"<title>%%page_title%% | ThinkGeek</title>",
+			"<title>%%title%% | ThinkGeek</title>",
+			"<title>%%cat_name%% | ThinkGeek</title>",
+			"<title>%%name%% | ThinkGeek</title>\n\n#shipping-cutoffs tr {\n    border: solid 1px #aaa;\n}",
+			"\n\n#shipping-cutoffs tr {\n    border: solid 1px #aaa;\n}",
+			"css/subcategories.css?v=2013120200",
+			"blackfriday-2013",
+			"",
+			"(\"https://a.tgcdn.net/images",
+			"('https://a.tgcdn.net/images",
+			"(https://a.tgcdn.net/images",
+			"https://a.tgcdn.net/images",
+			"image:url(http://a.tgcdn.net/images",
+			"image: url(\"http://a.tgcdn.net/images",
+			"image: url(http://a.tgcdn.net/images",
+			"image: url('http://a.tgcdn.net/images",
+			"https:",
+			"url('http://a.tgcdn.net/images",
+			"http",
+			"image: url('htts://a.tgcdn.net/images",
+			"icpg=1311_Holiday2013",
+			"class=\"section",
+			".section.",
+			".section ",
+			"holiday-2013",
+			"topnav_secondary_parent tgnav_secondary_parent",
+			"    ",
+			"",
+			"-lock",
+			"\\'s",
+			"I\\'ve",
+			"$0\\\\'$2",
+			"$0 - $1 - $2 - $3",
+			"$0 $2",
+			"$0\\\\'$2",
+			"$0\\\\'$1",
+			"$0\\'$1",
+			"$1\\'$2",
+			"\\,",
+			"$0\\\\,",
+			"$\\\\,",
+			"$1\\\\,",
+			"$0\\\\,",
+			"$1\\\\,",
+			"$1\\,",
+			"I\\'m",
+			");",
+			"$asdf[] =",
+			"butt0n",
+			"\"",
+			"",
+			"<li>$2$3</li>",
+			"<li>$1$2$3</li>",
+			"<li>$1$2</li>",
+			"<li>$1</li>",
+			"<li>$1",
+			"url('",
+			".jpg",
+			"Link to something",
+			".topnav-primary",
+			"",
+			"/images/sitewide/themes/2013-halloween/",
+			"-618px",
+			"&",
+			"_halloween",
+			"",
+			"1309_halloween",
+			"1309_",
+			"Halloween2013Accessories",
+			"Halloween2013PartySupplies"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/mios_icons.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "minimal.ios.8.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "minimal.ios.8.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"42.scss",
+				"build/scss/_styles/pages/_42.scss"
+			],
+			[
+				"/_styles/pages/_categories.scss",
+				"build/scss/_styles/pages/_categories.scss"
+			],
+			[
+				"pages/_categories.scss",
+				"build/scss/_styles/pages/_categories.scss"
+			],
+			[
+				"build/scss/_styles/pages/_subcategories.scss",
+				"build/scss/_styles/pages/_subcategories.scss"
+			],
+			[
+				"colors",
+				"build/scss/_global/settings/_colors.scss"
+			],
+			[
+				"feature.tt2",
+				"templates/pages/generic/feature.tt2"
+			],
+			[
+				"grid.scss",
+				"build/scss/_styles/util/_grid.scss"
+			],
+			[
+				"page_head",
+				"templates/modules/page_header.tt2"
+			],
+			[
+				"robots.tx",
+				"templates/pages/generic/robots.txt"
+			],
+			[
+				"pages/product/stock_status.tt2",
+				"templates/pages/product/stock_status.tt2"
+			],
+			[
+				"gener",
+				"templates/pages/generic/generic.tt2"
+			],
+			[
+				"productdefault",
+				"templates/pages/product/default.html"
+			],
+			[
+				"warpspeed.js",
+				"js/checkout/warpspeed.js"
+			],
+			[
+				"mobilewrapper",
+				"templates/mobile/wrapper.tt2"
+			],
+			[
+				"wrapper",
+				"templates/wrapper.tt2"
+			],
+			[
+				"mobilewrapp",
+				"templates/mobile/wrapper.tt2"
+			],
+			[
+				"productkit",
+				"templates/pages/generic/product-kit.tt2"
+			],
+			[
+				"warpper.tt2",
+				"templates/wrapper.tt2"
+			],
+			[
+				"sitewide/search_autocomplete.tt2",
+				"templates/sitewide/search_autocomplete.tt2"
+			],
+			[
+				"catlistdefault",
+				"templates/pages/catlist/default.tt2"
+			],
+			[
+				"home.tt2",
+				"templates/mobile/pages/generic/home.tt2"
+			],
+			[
+				"templates/mobile/whereisit/results.tt2",
+				"templates/mobile/whereisit/results.tt2"
+			],
+			[
+				"templates/mobile/pages/generic/whatsnew.tt2",
+				"templates/mobile/pages/generic/whatsnew.tt2"
+			],
+			[
+				"templates/mobile/pages/generic/bestsellers.tt2",
+				"templates/mobile/pages/generic/bestsellers.tt2"
+			],
+			[
+				"templates/mobile/pages/generic/basic.html",
+				"templates/mobile/pages/generic/basic.html"
+			],
+			[
+				"templates/mobile/pages/generic/basic-w-productlist.html",
+				"templates/mobile/pages/generic/basic-w-productlist.html"
+			],
+			[
+				"templates/mobile/pages/generic/42.tt2",
+				"templates/mobile/pages/generic/42.tt2"
+			],
+			[
+				"receipt.tt2",
+				"templates/mobile/order/receipt.tt2"
+			],
+			[
+				"templates/mobile/pages/catlist/default.tt2",
+				"templates/mobile/pages/catlist/default.tt2"
+			],
+			[
+				"image_carou",
+				"templates/mobile/pages/product/images_carousel.tt2"
+			],
+			[
+				"templates/mobile/wrapper.tt2",
+				"templates/mobile/wrapper.tt2"
+			],
+			[
+				"mobiledisp",
+				"templates/mobile/checkout/display_checkout_screens.tt2"
+			],
+			[
+				"display",
+				"templates/mobile/checkout/display_checkout_screens.tt2"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"templates/mobile/pages/product/images_carousel.tt2",
+				"templates/mobile/pages/product/images_carousel.tt2"
+			],
+			[
+				"templates/mobile/order/receipt.tt2",
+				"templates/mobile/order/receipt.tt2"
+			],
+			[
+				"templates/mobile/checkout/display_checkout_screens.tt2",
+				"templates/mobile/checkout/display_checkout_screens.tt2"
+			],
+			[
+				"templates/mobile/cart.tt2",
+				"templates/mobile/cart.tt2"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"templates/checkout/warpspeed.tt2",
+				"templates/checkout/warpspeed.tt2"
+			],
+			[
+				"templates/checkout/address.tt2",
+				"templates/checkout/address.tt2"
+			],
+			[
+				"omniture.js",
+				"js/omniture.js"
+			],
+			[
+				"lib/sphorb/template/omniture.pm",
+				"lib/Sphorb/Template/Omniture.pm"
+			],
+			[
+				"mobilewrap",
+				"templates/mobile/wrapper.tt2"
+			],
+			[
+				"jquery.placeholder.min",
+				"js/jquery/jquery.placeholder.min.js"
+			],
+			[
+				"mobileproductwrap",
+				"templates/mobile/productwrapper.tt2"
+			],
+			[
+				"navtop",
+				"build/scss/_styles/partials/header/_nav-top-primary.scss"
+			],
+			[
+				"utils",
+				"lib/Sphorb/Template/Utils.pm"
+			],
+			[
+				"es/sitewide/search_autocomplete.tt2",
+				"templates/sitewide/search_autocomplete.tt2"
+			],
+			[
+				"productwrap",
+				"templates/productwrapper.tt2"
+			],
+			[
+				"s/styles.min.css",
+				"css/styles.min.css"
+			],
+			[
+				"stylesmin",
+				"css/styles.min.css"
+			],
+			[
+				"styles.min",
+				"css/styles.min.css"
+			],
+			[
+				"productcontent",
+				"templates/pages/product/content_blob.tt2"
+			],
+			[
+				"fontawesome",
+				"build/scss/_global/vendor/font-awesome/_variables.scss"
+			],
+			[
+				"accountindex",
+				"templates/mobile/account/index.tt2"
+			],
+			[
+				"mobilecart",
+				"templates/mobile/cart.tt2"
+			],
+			[
+				"build/scss/mobile/_styles/modules/_content-details.scss",
+				"build/scss/mobile/_styles/modules/_content-details.scss"
+			],
+			[
+				"accountscss",
+				"build/scss/_styles/pages/_account.scss"
+			],
+			[
+				"stashdetail",
+				"templates/mobile/account/stash/detail.tt2"
+			],
+			[
+				"stashlist",
+				"templates/mobile/account/stash/list.tt2"
+			],
+			[
+				"stash.cgi",
+				"cgi-bin/account/stash.cgi"
+			],
+			[
+				"mobileindex.tt2",
+				"templates/mobile/account/index.tt2"
+			],
+			[
+				"mobileforms",
+				"build/scss/mobile/_styles/modules/_forms.scss"
+			],
+			[
+				"helpers",
+				"build/scss/_styles/util/_helpers.scss"
+			],
+			[
+				"cert_lookup",
+				"templates/mobile/order/cert_lookup/detail.tt2"
+			],
+			[
+				"cert_lookuptt2",
+				"templates/mobile/order/cert_lookup/base.tt2"
+			],
+			[
+				"fonts.scss",
+				"build/scss/_global/settings/_fonts.scss"
+			],
+			[
+				"mobilewishesd",
+				"templates/mobile/account/wishes/detail.tt2"
+			],
+			[
+				"build/scss/mobile/_styles/_main.scss",
+				"build/scss/mobile/_styles/_main.scss"
+			],
+			[
+				"main.scss",
+				"build/scss/_styles/_main.scss"
+			],
+			[
+				"global-m",
+				"build/js/global-m.js"
+			],
+			[
+				"omniture",
+				"js/omniture.js"
+			],
+			[
+				"pages/product/right_gutter.tt2",
+				"templates/pages/product/right_gutter.tt2"
+			],
+			[
+				"pages/product/content_blob.tt2",
+				"templates/pages/product/content_blob.tt2"
+			],
+			[
+				"pages/product/tabs.tt2",
+				"templates/pages/product/tabs.tt2"
+			],
+			[
+				"productdefaul",
+				"templates/pages/product/default.html"
+			],
+			[
+				"sphorbtemplate",
+				"lib/Sphorb/Template/Utils.pm"
+			],
+			[
+				"lib/sphorb/content.pm",
+				"lib/Sphorb/Content.pm"
+			],
+			[
+				"productdefual",
+				"templates/pages/product/default.html"
+			],
+			[
+				"productwrapp",
+				"templates/productwrapper.tt2"
+			],
+			[
+				"breadcrumb",
+				"lib/Sphorb/Template/Breadcrumb.pm"
+			],
+			[
+				"breadcrumb_variables",
+				"templates/breadcrumb_variables.tt2"
+			],
+			[
+				"breadcru",
+				"templates/breadcrumb.tt2"
+			],
+			[
+				"cart.tt2",
+				"templates/cart.tt2"
+			],
+			[
+				"cart/cart_banners.tt",
+				"templates/cart/cart_banners.tt2"
+			],
+			[
+				"whatsnew.tt2",
+				"templates/pages/generic/whatsnew.tt2"
+			],
+			[
+				"news",
+				"lib/Sphorb/News.pm"
+			],
+			[
+				"sphorbproduc",
+				"lib/Sphorb/Template/SphorbProduct.pm"
+			],
+			[
+				"defaultgener",
+				"templates/pages/cat/default-generic.tt2"
+			],
+			[
+				"style.min.cs",
+				"css/styles.min.css"
+			],
+			[
+				"style.css",
+				"css/styles.css"
+			],
+			[
+				"fontawesomevar",
+				"build/scss/_global/vendor/font-awesome/_variables.scss"
+			],
+			[
+				"fontawesomescss",
+				"build/scss/_global/vendor/font-awesome/_path.scss"
+			],
+			[
+				"styles.cs",
+				"css/styles.css"
+			],
+			[
+				"lib/sphorb/handler/trans/staticheaders.pm",
+				"lib/Sphorb/Handler/Trans/StaticHeaders.pm"
+			],
+			[
+				"headers",
+				"lib/Sphorb/Handler/Trans/StaticHeaders.pm"
+			],
+			[
+				"styles.min.css",
+				"css/styles.min.css"
+			],
+			[
+				"styles.css",
+				"css/styles.css"
+			],
+			[
+				"wishes.scss",
+				"build/scss/mobile/_styles/pages/account/_wishes.scss"
+			],
+			[
+				"colors.scss",
+				"build/scss/_global/settings/_colors.scss"
+			],
+			[
+				"gimme.cgi",
+				"cgi-bin/gimme.cgi"
+			],
+			[
+				"gimme.tt2",
+				"templates/mobile/gimme.tt2"
+			],
+			[
+				"drawer.scss",
+				"build/scss/mobile/_styles/modules/_drawer.scss"
+			],
+			[
+				"acountwishes",
+				"build/scss/mobile/_styles/pages/account/_wishes.scss"
+			],
+			[
+				"mobileform",
+				"build/scss/mobile/_styles/modules/_forms.scss"
+			],
+			[
+				"mobileplacestt2",
+				"templates/mobile/account/places.tt2"
+			],
+			[
+				"mobilegener",
+				"templates/mobile/pages/generic/generic.tt2"
+			],
+			[
+				"wishesdetail",
+				"templates/mobile/account/wishes/detail.tt2"
+			],
+			[
+				"mobilecatego",
+				"build/scss/mobile/_styles/pages/_categories.scss"
+			],
+			[
+				"modulesheader",
+				"templates/modules/page_header.tt2"
+			],
+			[
+				"subscription_center/manage.tt2",
+				"templates/mobile/subscription_center/manage.tt2"
+			],
+			[
+				"subscription",
+				"lib/Sphorb/Controller/SubscriptionCenter.pm"
+			],
+			[
+				"globa-m",
+				"build/js/global-m.js"
+			],
+			[
+				"displaycheck",
+				"templates/mobile/checkout/display_checkout_screens.tt2"
+			],
+			[
+				"templates/wrapper.tt2",
+				"templates/wrapper.tt2"
+			],
+			[
+				"warpspeed",
+				"templates/checkout/warpspeed.tt2"
+			],
+			[
+				"warp",
+				"templates/checkout/warpspeed.tt2"
+			],
+			[
+				"sphorbhandler",
+				"lib/Sphorb/Handler/Response/API/Order.pm"
+			],
+			[
+				"api",
+				"lib/Sphorb/Handler/Response/API.pm"
+			],
+			[
+				"promos",
+				"lib/Sphorb/Promos.pm"
+			],
+			[
+				"cgi-bin/checkout/warpspeed.cgi",
+				"cgi-bin/checkout/warpspeed.cgi"
+			],
+			[
+				"hero_ba",
+				"templates/modules/hero_banner.tt2"
+			],
+			[
+				"mobiledefault-gen",
+				"templates/mobile/pages/cat/default-generic.tt2"
+			],
+			[
+				"product_variables",
+				"templates/sitewide/product_variables.tt2"
+			],
+			[
+				"productvaria",
+				"templates/sitewide/product_variables.tt2"
+			],
+			[
+				"productvar",
+				"templates/sitewide/product_variables.tt2"
+			],
+			[
+				"wahtsnew",
+				"templates/pages/generic/whatsnew.tt2"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 534.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

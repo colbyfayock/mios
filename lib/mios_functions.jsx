@@ -65,7 +65,7 @@ var mios = {
         }
 
         var tinypng = new ActionDescriptor();
-        tinypng.putPath(charIDToTypeID("In  "), file); /* Overwrite original! */
+        tinypng.putPath(charIDToTypeID("In  "), file);
 
         var compress = new ActionDescriptor();
         compress.putObject(charIDToTypeID("Usng"), charIDToTypeID("tinY"), tinypng);
@@ -97,14 +97,14 @@ var mios = {
             compressImage = new ActionDescriptor();
             compressImage.putObject(charIDToTypeID("Usng"), charIDToTypeID("tinY"), tinypng);
 
-            executeAction(charIDToTypeID("Expr"), compress, DialogModes.NO);
+            executeAction(charIDToTypeID("Expr"), compressImage, DialogModes.NO);
 
         }
 
 
     },
 
-    build: function() {
+    build: function( args ) {
 
         var dirIcons = new Folder( (new File($.fileName)).parent + "/assets/icons/" ),
             iconList = this.getIcons();
@@ -116,7 +116,8 @@ var mios = {
                 iconDir,
                 iconDoc,
                 bundleFolder,
-                iconFolder;
+                iconFolder,
+                selection;
 
             if ( !iconObj.psd_id ) continue;
 
@@ -130,6 +131,11 @@ var mios = {
             }
 
             if ( !this.docValidate( iconDoc, iconObj.name ) ) {
+                iconDoc.close( SaveOptions.DONOTSAVECHANGES );
+                continue;
+            }
+
+            if ( args.length > 0 && args[0] === 'test' ) {
                 iconDoc.close( SaveOptions.DONOTSAVECHANGES );
                 continue;
             }
@@ -151,6 +157,18 @@ var mios = {
 
             if ( iconSizes && iconSizes.length > 0 ) {
 
+                if ( iconObj.mask && iconObj.mask !== '' ) {
+
+                    iconDoc.artLayers.getByName('Background').isBackgroundLayer = false;
+
+                    this.drawMask( this.getMaskPoints() );
+                    selection = app.activeDocument.selection;
+                    selection.invert();
+                    selection.clear();
+                    selection.deselect();
+
+                }
+
                 for ( var j = 0, iconSizesLen = iconSizes.length; j < iconSizesLen; j++ ) {
 
                     var iconFile,
@@ -160,7 +178,11 @@ var mios = {
                     app.activeDocument.resizeImage( iconSizes[j][1], iconSizes[j][1], undefined, ResampleMethod.BICUBICSHARPER);
                     iconFile = new File( decodeURI(bundleFolder) + iconFilePath );
 
-                    this.save( iconFile, true );
+                    if ( args.length > 0 && args[0] === 'compressed' ) {
+                        this.save( iconFile, true );
+                    } else {
+                        this.save( iconFile, false );
+                    }
 
                 }
 
@@ -170,6 +192,77 @@ var mios = {
 
 
         }
+
+    },
+
+    getMaskPoints: function() {
+
+        var width = parseInt( app.activeDocument.width, 10 ),
+            height = parseInt( app.activeDocument.height, 10 ),
+            middle = width / 2,
+            points = [];
+
+        points[0] = [
+            [ middle, 0 ],
+            [ width * 0.91796875, 0 ],
+            [ width * 0.08203125, 0 ]
+        ];
+
+        points[1] = [
+            [ width, middle ],
+            [ width, height * 0.91796875 ],
+            [ width, height * 0.08203125 ]
+        ];
+
+        points[2] = [
+            [ middle, height ],
+            [ width * 0.08203125, height ],
+            [ width * 0.91796875, height ]
+        ];
+
+        points[3] = [
+            [ 0, middle ],
+            [ 0, height * 0.08203125 ],
+            [ 0, height * 0.91796875 ]
+        ];
+
+        return points;
+
+    },
+
+    drawMask: function( points ) {
+
+        var doc = app.activeDocument,
+            lineArray = [],
+            pathItem,
+            makePathPoint,
+            drawShape;
+
+        makePathPoint = function( xy ) {
+            var pathPoint = new PathPointInfo;
+            pathPoint.kind = PointKind.CORNERPOINT;
+            pathPoint.anchor = xy[0];
+            pathPoint.leftDirection = xy[1];
+            pathPoint.rightDirection = xy[2];
+            return pathPoint;
+        };
+
+        makeSubPath = function( points ) {
+            var subPath = new SubPathInfo();
+            subPath.closed = true;
+            subPath.operation = ShapeOperation.SHAPEADD;
+            subPath.entireSubPath = points;
+            return subPath;
+        };
+
+        for ( var i = 0, pointsLen = points.length; i < pointsLen; i++ ) {
+            lineArray.push( makePathPoint( points[i] ) );
+        }
+
+        pathItem = doc.pathItems.add("myPath", [ makeSubPath( lineArray ) ]);
+
+        pathItem.makeSelection();
+        pathItem.remove();
 
     },
 

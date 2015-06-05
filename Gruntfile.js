@@ -31,7 +31,20 @@ module.exports = function(grunt) {
             build_files: {
 
                 options: {
-                    app: 'Adobe Photoshop CC 2014'
+                    app: 'Adobe Photoshop CC 2014',
+                    args: [ "compressed" ]
+                },
+
+                src: [
+                    './mios.jsx'
+                ]
+            },
+
+            test_files: {
+
+                options: {
+                    app: 'Adobe Photoshop CC 2014',
+                    args: [ "test" ]
                 },
 
                 src: [
@@ -44,13 +57,14 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.registerTask('default', [
-        // 'build'
-    ]);
-
     grunt.registerTask('build', [
         'concat:build',
         'extendscript:build_files'
+    ]);
+
+    grunt.registerTask('test', [
+        'concat:build',
+        'extendscript:test_files'
     ]);
 
 };

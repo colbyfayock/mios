@@ -4,7 +4,7 @@ mios.icons.push({
     name: '1Password',
     bundle_id: 'com.agilebits.onepassword-ios',
     app_id: '1Password.app',
-    psd_id: '1password',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -14,7 +14,7 @@ mios.icons.push({
     name: '2048',
     bundle_id: 'com.ketchapp.2048',
     app_id: '2048.app',
-    psd_id: '2048',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -30,7 +30,7 @@ mios.icons.push({
     name: '5s Gif',
     bundle_id: 'com.ericmarschner.5s',
     app_id: 'FiveSeconds.app',
-    psd_id: '5sGif',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -40,7 +40,7 @@ mios.icons.push({
     name: '8 Ball Pool',
     bundle_id: 'com.miniclip.8ballpoolmult',
     app_id: 'pool.app',
-    psd_id: '8BallPool',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -51,7 +51,7 @@ mios.icons.push({
     name: '9GAG',
     bundle_id: 'com.9gag.ios.mobile',
     app_id: '9GAG.app',
-    psd_id: '9Gag',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -61,7 +61,7 @@ mios.icons.push({
     name: 'ABC Watch',
     bundle_id: 'com.abcdigital.abc.videoplayer',
     app_id: 'WATCH ABC.app',
-    psd_id: 'abc_watch',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -72,7 +72,7 @@ mios.icons.push({
     name: 'Accuweather',
     bundle_id: 'com.yourcompany.TestWithCustomTabs',
     app_id: 'AccuWeather.app',
-    psd_id: 'accuweather',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -80,17 +80,28 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'Activator',
-    bundle_id: false,
+    bundle_id: 'libactivator',
     app_id: false,
-    psd_id: 'activator',
-    icons: false
+    psd_id: false,
+    mask: true,
+    icons: {
+        custom: [
+            [ 'icon', 58 ],
+            [ 'icon@2x', 120 ],
+            [ 'icon-72', 120 ],
+            [ 'Icon-152', 152 ],
+            [ 'Icon-Small@2x', 58 ],
+            [ 'Icon-Small-modern@2x', 58 ],
+            [ 'Icon@2x-iOS7', 120 ]
+        ]
+    }
 });
 
 mios.icons.push({
     name: 'Ally',
     bundle_id: 'com.ally.MobileBanking',
     app_id: 'Ally Bank.app',
-    psd_id: 'ally',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -100,7 +111,27 @@ mios.icons.push({
     name: 'Amazon',
     bundle_id: 'com.amazon.Amazon',
     app_id: 'Amazon.app',
-    psd_id: 'amazon',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Amazon FR',
+    bundle_id: 'com.amazon.AmazonFR',
+    app_id: 'Amazon.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Amazon UK',
+    bundle_id: 'com.amazon.AmazonUK',
+    app_id: 'Amazon.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -110,7 +141,7 @@ mios.icons.push({
     name: 'Amazon Instant Video',
     bundle_id: 'com.amazon.aiv.AIVApp',
     app_id: 'InstantVideo.US.app',
-    psd_id: 'amazon_instant_video',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -120,7 +151,7 @@ mios.icons.push({
     name: 'AMEX',
     bundle_id: 'com.americanexpress.amexservice',
     app_id: 'Amex.app',
-    psd_id: 'amex',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon', 60 ],
@@ -135,7 +166,7 @@ mios.icons.push({
     name: 'amrc client for reddit',
     bundle_id: 'com.amleszk.amrc',
     app_id: 'amrc.app',
-    psd_id: 'amrc_client_for_reddit',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -146,12 +177,177 @@ mios.icons.push({
     name: 'AppInfo',
     bundle_id: 'com.mileskabal.appinfo',
     app_id: 'appinfo.app',
-    psd_id: 'app_info',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
             [ 'Icon@2x', 120 ]
         ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Backup',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_backup',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Backup@2x', 58 ],
+            [ 'com.apple.Dataclass.Backup@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Bookmarks',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_safari',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Bookmarks@2x', 58 ],
+            [ 'com.apple.Dataclass.Bookmarks@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Calendars',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_calendar',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Calendars@2x', 58 ],
+            [ 'com.apple.Dataclass.Calendars@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - CKDatabaseService',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_icloud',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.CKDatabaseService@2x', 58 ],
+            [ 'com.apple.Dataclass.CKDatabaseService@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Contacts',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_contacts',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Contacts@2x', 58 ],
+            [ 'com.apple.Dataclass.Contacts@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Keychain Sync',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_keychain',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.KeychainSync@2x', 58 ],
+            [ 'com.apple.Dataclass.KeychainSync@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Mail',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_mail',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Mail@2x', 58 ],
+            [ 'com.apple.Dataclass.Mail@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Media Stream',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_camera_roll',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.MediaStream@2x', 58 ],
+            [ 'com.apple.Dataclass.MediaStream@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Notes',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_notes',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Notes@2x', 58 ],
+            [ 'com.apple.Dataclass.Notes@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Reminders',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_reminders',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Reminders@2x', 58 ],
+            [ 'com.apple.Dataclass.Reminders@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Accounts - Shoebox',
+    bundle_id: 'com.apple.accountsui',
+    app_id: false,
+    psd_id: 'apple_passbook',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'com.apple.Dataclass.Shoebox@2x', 58 ],
+            [ 'com.apple.Dataclass.Shoebox@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Airport Utility',
+    bundle_id: 'com.apple.airport.mobileairportutility',
+    app_id: false,
+    psd_id: 'apple_wifi',
+    mask: true,
+    icons: {
+        appicon: true
     }
 });
 
@@ -175,6 +371,118 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Assistant',
+    bundle_id: 'com.apple.AssistantServices',
+    app_id: false,
+    psd_id: 'apple_assistant',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'settings_siri@2x', 58 ],
+            [ 'settings_siri@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - Calendar',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'apple_calendar',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Calendar@2x', 120 ],
+            [ 'Calendar@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - Movies',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'apple_videos',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Movies@2x', 120 ],
+            [ 'Movies@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - QandA',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'apple_qa',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'QandA@2x', 120 ],
+            [ 'QandA@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - Restaurants',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'apple_restaurants',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Restaurants@2x', 120 ],
+            [ 'Restaurants@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - Sports',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'apple_sports',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Sports@2x', 120 ],
+            [ 'Sports@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - Twitter',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'twitter',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Twitter@2x', 120 ],
+            [ 'Twitter@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Assistant - facebook',
+    bundle_id: 'com.apple.assistant.System',
+    app_id: false,
+    psd_id: 'facebook',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'facebook@2x', 120 ],
+            [ 'facebook@3x', 180 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Calculator',
     bundle_id: 'com.apple.calculator',
     app_id: 'Calculator.app',
@@ -192,7 +500,7 @@ mios.icons.push({
     name: 'Apple Calendar',
     bundle_id: 'com.apple.mobilecal',
     app_id: 'MobileCal.app',
-    psd_id: false,
+    psd_id: 'apple_calendar',
     icons: {
         custom: [
             [ 'icon-about@2x', 80 ],
@@ -237,6 +545,33 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Clock',
+    bundle_id: 'com.apple.springboard',
+    app_id: false,
+    psd_id: 'apple_clock',
+    icons: {
+        custom: [
+            [ 'ClockIconBackgroundSquare@2x~iphone-iOS7', 120 ],
+            [ 'ClockIconBackgroundSquare@2x~iphone', 120 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Clock Alt',
+    bundle_id: 'com.apple.springboard',
+    app_id: false,
+    psd_id: 'apple_clock_alt',
+    folder: '/alt',
+    icons: {
+        custom: [
+            [ 'ClockIconBackgroundSquare@2x~iphone-iOS7', 120 ],
+            [ 'ClockIconBackgroundSquare@2x~iphone', 120 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Compass',
     bundle_id: 'com.apple.compass',
     app_id: 'Compass.app',
@@ -273,12 +608,36 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Find My Friends',
+    bundle_id: 'com.apple.mobileme.fmf1',
+    app_id: 'FindMyFriends.app',
+    psd_id: 'apple_find_my_friends',
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Apple Find My iPhone',
     bundle_id: 'com.apple.mobileme.fmip1',
     app_id: 'FindMyiPhone.app',
     psd_id: 'apple_find_my_iphone',
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Find My iPhone',
+    bundle_id: 'com.apple.castlesettings',
+    app_id: 'FindMyiPhone.app',
+    psd_id: 'apple_find_my_iphone',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'fmip@2x', 58 ],
+            [ 'fmip@3x', 87 ]
+        ]
     }
 });
 
@@ -388,10 +747,15 @@ mios.icons.push({
         custom: [
             [ 'Icon-20~ipad', 20 ],
             [ 'Icon-20@2x', 40 ],
+            [ 'Icon-20@3x', 60 ],
             [ 'Icon-40@2x', 80 ],
+            [ 'Icon-40@3x', 120 ],
             [ 'Icon-76@2x~ipad', 152 ],
+            [ 'Icon-76@3x~ipad', 228 ],
             [ 'Icon-Small@2x', 58 ],
-            [ 'Icon@2x', 144 ]
+            [ 'Icon-Small@3x', 87 ],
+            [ 'Icon@2x', 144 ],
+            [ 'Icon@3x', 216 ]
         ]
     }
 });
@@ -496,6 +860,832 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Apple Preferences - Airplane Mode',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_airplane_mode',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'AirplaneMode~ipad', 29 ],
+            [ 'AirplaneMode@2x', 58 ],
+            [ 'AirplaneMode@2x~ipad', 58 ],
+            [ 'AirplaneMode@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - App Store',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_app_store',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'AppStore~ipad', 29 ],
+            [ 'AppStore@2x', 58 ],
+            [ 'AppStore@2x~ipad', 58 ],
+            [ 'AppStore@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Bluetooth',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_bluetooth',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Bluetooth~ipad', 29 ],
+            [ 'Bluetooth@2x', 58 ],
+            [ 'Bluetooth@2x~ipad', 58 ],
+            [ 'Bluetooth@3x', 87 ],
+            [ 'BluetoothSharing~ipad', 29 ],
+            [ 'BluetoothSharing@2x', 58 ],
+            [ 'BluetoothSharing@2x~ipad', 58 ],
+            [ 'BluetoothSharing@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Calendar',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_calendar',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Calendar~ipad', 29 ],
+            [ 'Calendar@2x', 58 ],
+            [ 'Calendar@2x~ipad', 58 ],
+            [ 'Calendar@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Camera',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_camera',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Camera~ipad', 29 ],
+            [ 'Camera@2x', 58 ],
+            [ 'Camera@2x~ipad', 58 ],
+            [ 'Camera@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Carrier',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_carrier',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Carrier~ipad', 29 ],
+            [ 'Carrier@2x', 58 ],
+            [ 'Carrier@2x~ipad', 58 ],
+            [ 'Carrier@3x', 87 ],
+            [ 'CarrierSettings~ipad', 29 ],
+            [ 'CarrierSettings@2x', 58 ],
+            [ 'CarrierSettings@2x~ipad', 58 ],
+            [ 'CarrierSettings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Cellular Data',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_cellular',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'CellularData~ipad', 29 ],
+            [ 'CellularData@2x', 58 ],
+            [ 'CellularData@2x~ipad', 58 ],
+            [ 'CellularData@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Compass',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_compass',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Compass~ipad', 29 ],
+            [ 'Compass@2x', 58 ],
+            [ 'Compass@2x~ipad', 58 ],
+            [ 'Compass@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Contacts',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_contacts',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Contacts~ipad', 29 ],
+            [ 'Contacts@2x', 58 ],
+            [ 'Contacts@2x~ipad', 58 ],
+            [ 'Contacts@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Control Center',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_control_center',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'ControlCenter~ipad', 29 ],
+            [ 'ControlCenter@2x', 58 ],
+            [ 'ControlCenter@2x~ipad', 58 ],
+            [ 'ControlCenter@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Developer',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_developer',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'DeveloperSettings~ipad', 29 ],
+            [ 'DeveloperSettings@2x', 58 ],
+            [ 'DeveloperSettings@2x~ipad', 58 ],
+            [ 'DeveloperSettings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Display',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_display',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Display~ipad', 29 ],
+            [ 'Display@2x', 58 ],
+            [ 'Display@2x~ipad', 58 ],
+            [ 'Display@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Do Not Disturb',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_dnd',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'DND~ipad', 29 ],
+            [ 'DND@2x', 58 ],
+            [ 'DND@2x~ipad', 58 ],
+            [ 'DND@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Facetime',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_facetime',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'FaceTime~ipad', 29 ],
+            [ 'FaceTime@2x', 58 ],
+            [ 'FaceTime@2x~ipad', 58 ],
+            [ 'FaceTime@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Facebook',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'facebook',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'FacebookSettings~ipad', 29 ],
+            [ 'FacebookSettings@2x', 58 ],
+            [ 'FacebookSettings@2x~ipad', 58 ],
+            [ 'FacebookSettings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Facebook',
+    bundle_id: 'com.apple.FacebookSettings',
+    app_id: false,
+    psd_id: 'facebook',
+    icons: {
+        custom: [
+            [ 'FacebookIcon@2x', 120 ],
+            [ 'FacebookIcon@3x', 180 ],
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Find My iPhone',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_find_my_iphone',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'FindMyiPhone~ipad', 29 ],
+            [ 'FindMyiPhone@2x', 58 ],
+            [ 'FindMyiPhone@2x~ipad', 58 ],
+            [ 'FindMyiPhone@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Flickr',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'flickr',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'FlickrSettings~ipad', 29 ],
+            [ 'FlickrSettings@2x', 58 ],
+            [ 'FlickrSettings@2x~ipad', 58 ],
+            [ 'FlickrSettings@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Game Center',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_game_center',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'GameCenter~ipad', 29 ],
+            [ 'GameCenter@2x', 58 ],
+            [ 'GameCenter@2x~ipad', 58 ],
+            [ 'GameCenter@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - General',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_general',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'General~ipad', 29 ],
+            [ 'General@2x', 58 ],
+            [ 'General@2x~ipad', 58 ],
+            [ 'General@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Health',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_health',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Health~ipad', 29 ],
+            [ 'Health@2x', 58 ],
+            [ 'Health@2x~ipad', 58 ],
+            [ 'Health@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Home Data',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_home_data',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'HomeData~ipad', 29 ],
+            [ 'HomeData@2x', 58 ],
+            [ 'HomeData@2x~ipad', 58 ],
+            [ 'HomeData@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - iCloud',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_icloud',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'iCloud~ipad', 29 ],
+            [ 'iCloud@2x', 58 ],
+            [ 'iCloud@2x~ipad', 58 ],
+            [ 'iCloud@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - iTunes',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_itunes_store',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'iTunes~ipad', 29 ],
+            [ 'iTunes@2x', 58 ],
+            [ 'iTunes@2x~ipad', 58 ],
+            [ 'iTunes@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Location',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_location',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Location~ipad', 29 ],
+            [ 'Location@2x', 58 ],
+            [ 'Location@2x~ipad', 58 ],
+            [ 'Location@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Mail',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_mail',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Mail~ipad', 29 ],
+            [ 'Mail@2x', 58 ],
+            [ 'Mail@2x~ipad', 58 ],
+            [ 'Mail@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Maps',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_maps',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Maps~ipad', 29 ],
+            [ 'Maps@2x', 58 ],
+            [ 'Maps@2x~ipad', 58 ],
+            [ 'Maps@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Messages',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_sms',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Messages~ipad', 29 ],
+            [ 'Messages@2x', 58 ],
+            [ 'Messages@2x~ipad', 58 ],
+            [ 'Messages@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Microphone',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_microphone',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Microphone~ipad', 29 ],
+            [ 'Microphone@2x', 58 ],
+            [ 'Microphone@2x~ipad', 58 ],
+            [ 'Microphone@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Motion',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_motion',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Motion~ipad', 29 ],
+            [ 'Motion@2x', 58 ],
+            [ 'Motion@2x~ipad', 58 ],
+            [ 'Motion@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Music',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_music',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Music~ipad', 29 ],
+            [ 'Music@2x', 58 ],
+            [ 'Music@2x~ipad', 58 ],
+            [ 'Music@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Newsstand',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: false,
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Newsstand-en~ipad', 29 ],
+            [ 'Newsstand-en@2x', 58 ],
+            [ 'Newsstand-en@2x~ipad', 58 ],
+            [ 'Newsstand-en@3x', 87 ],
+            [ 'Newsstand~ipad', 29 ],
+            [ 'Newsstand@2x', 58 ],
+            [ 'Newsstand@2x~ipad', 58 ],
+            [ 'Newsstand@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Notes',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_notes',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Notes~ipad', 29 ],
+            [ 'Notes@2x', 58 ],
+            [ 'Notes@2x~ipad', 58 ],
+            [ 'Notes@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Notification Center',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_notifications',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'NotificationCenter~ipad', 29 ],
+            [ 'NotificationCenter@2x', 58 ],
+            [ 'NotificationCenter@2x~ipad', 58 ],
+            [ 'NotificationCenter@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Passcode',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_passcode',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Passcode~ipad', 29 ],
+            [ 'Passcode@2x', 58 ],
+            [ 'Passcode@2x~ipad', 58 ],
+            [ 'Passcode@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Passbook',
+    bundle_id: 'com.apple.PassKitCore',
+    app_id: false,
+    psd_id: 'apple_passbook',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Icon', 60 ],
+            [ 'Icon@2x', 120 ],
+            [ 'Icon@3x', 180 ],
+            [ 'Icon-Small@2x', 58 ],
+            [ 'Icon-Small@3x', 87 ],
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Personal Hotspot',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_personal_hotspot',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'PersonalHotspot~ipad', 29 ],
+            [ 'PersonalHotspot@2x', 58 ],
+            [ 'PersonalHotspot@2x~ipad', 58 ],
+            [ 'PersonalHotspot@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Phone',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_phone',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Phone~ipad', 29 ],
+            [ 'Phone@2x', 58 ],
+            [ 'Phone@2x~ipad', 58 ],
+            [ 'Phone@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Photos',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_camera_roll',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Photos~ipad', 29 ],
+            [ 'Photos@2x', 58 ],
+            [ 'Photos@2x~ipad', 58 ],
+            [ 'Photos@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Privacy',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_privacy',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Privacy~ipad', 29 ],
+            [ 'Privacy@2x', 58 ],
+            [ 'Privacy@2x~ipad', 58 ],
+            [ 'Privacy@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Reminders',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_reminders',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Reminders~ipad', 29 ],
+            [ 'Reminders@2x', 58 ],
+            [ 'Reminders@2x~ipad', 58 ],
+            [ 'Reminders@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Safari',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_safari',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Safari~ipad', 29 ],
+            [ 'Safari@2x', 58 ],
+            [ 'Safari@2x~ipad', 58 ],
+            [ 'Safari@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Sounds',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_sounds',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Sounds~ipad', 29 ],
+            [ 'Sounds@2x', 58 ],
+            [ 'Sounds@2x~ipad', 58 ],
+            [ 'Sounds@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - TouchID',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_touchid',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'TouchID~ipad', 29 ],
+            [ 'TouchID@2x', 58 ],
+            [ 'TouchID@2x~ipad', 58 ],
+            [ 'TouchID@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Twitter',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'twitter',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Twitter~ipad', 29 ],
+            [ 'Twitter@2x', 58 ],
+            [ 'Twitter@2x~ipad', 58 ],
+            [ 'Twitter@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Victoria',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'nike_plus',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Victoria~ipad', 29 ],
+            [ 'Victoria@2x', 58 ],
+            [ 'Victoria@2x~ipad', 58 ],
+            [ 'Victoria@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Video',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_videos',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Video~ipad', 29 ],
+            [ 'Video@2x', 58 ],
+            [ 'Video@2x~ipad', 58 ],
+            [ 'Video@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - VPN',
+    bundle_id: 'com.apple.VPNPreferences',
+    app_id: false,
+    psd_id: 'apple_vpn',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'VPN~ipad', 29 ],
+            [ 'VPN@2x', 58 ],
+            [ 'VPN@2x~ipad', 58 ],
+            [ 'VPN@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Wallpaper',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_wallpaper',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Wallpaper~ipad', 29 ],
+            [ 'Wallpaper@2x', 58 ],
+            [ 'Wallpaper@2x~ipad', 58 ],
+            [ 'Wallpaper@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - Weibo',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'weibo',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'Weibo~ipad', 29 ],
+            [ 'Weibo@2x', 58 ],
+            [ 'Weibo@2x~ipad', 58 ],
+            [ 'Weibo@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Apple Preferences - WiFi',
+    bundle_id: 'com.apple.Preferences',
+    app_id: false,
+    psd_id: 'apple_wifi',
+    mask: true,
+    icons: {
+        custom: [
+            [ 'WiFi~ipad', 29 ],
+            [ 'WiFi@2x', 58 ],
+            [ 'WiFi@2x~ipad', 58 ],
+            [ 'WiFi@3x', 87 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Apple Reminders',
     bundle_id: 'com.apple.reminders',
     app_id: 'Reminders.app',
@@ -503,8 +1693,11 @@ mios.icons.push({
     icons: {
         custom: [
             [ 'icon@2x~iphone', 120 ],
+            [ 'icon@3x~iphone', 180 ],
             [ 'settingsIcon@2x', 58 ],
-            [ 'spotlightIcon@2x', 80 ]
+            [ 'settingsIcon@3x', 87 ],
+            [ 'spotlightIcon@2x', 80 ],
+            [ 'spotlightIcon@3x', 120 ]
         ]
     }
 });
@@ -540,9 +1733,13 @@ mios.icons.push({
     icons: {
         custom: [
             [ 'icon-about@2x', 80 ],
+            [ 'icon-about@3x', 120 ],
             [ 'icon-spotlight@2x', 40 ],
+            [ 'icon-spotlight@3x', 60 ],
             [ 'icon-table@2x', 58 ],
-            [ 'icon@2x~iphone', 120 ]
+            [ 'icon-table@3x', 87 ],
+            [ 'icon@2x~iphone', 120 ],
+            [ 'icon@3x~iphone', 180 ]
         ]
     }
 });
@@ -619,6 +1816,7 @@ mios.icons.push({
     app_id: false,
     psd_id: 'apple_trailers',
     icons: {
+        appicon: true,
         custom: [
             [ 'Trailers29', 29 ],
             [ 'Trailers40', 40 ],
@@ -651,7 +1849,8 @@ mios.icons.push({
     psd_id: 'apple_voice_memos',
     icons: {
         custom: [
-            [ 'icon@2x', 120 ]
+            [ 'icon@2x', 120 ],
+            [ 'icon@3x', 180 ]
         ]
     }
 });
@@ -670,7 +1869,7 @@ mios.icons.push({
     name: 'Ask.fm',
     bundle_id: 'fm.ask.askfm',
     app_id: 'askfm.app',
-    psd_id: 'ask',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -680,7 +1879,7 @@ mios.icons.push({
     name: 'Audible Audiobooks',
     bundle_id: 'com.audible.iphone',
     app_id: 'Audible.app',
-    psd_id: 'audible_audiobooks',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -690,7 +1889,7 @@ mios.icons.push({
     name: 'Authy',
     bundle_id: 'com.authy',
     app_id: 'authy.app',
-    psd_id: 'authy',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -715,9 +1914,23 @@ mios.icons.push({
     name: 'Aviary Photo Editor',
     bundle_id: 'com.aviary.Photo-Editor',
     app_id: 'Photo Editor.app',
-    psd_id: 'aviary_photo_editor',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Badoo',
+    bundle_id: 'com.badoo.Badoo',
+    app_id: 'Badoo.app',
+    psd_id: false,
+    icons: {
+        appicon: true,
+        icon: true,
+        custom: [
+            [ 'Icon-120', 120 ]
+        ]
     }
 });
 
@@ -725,7 +1938,7 @@ mios.icons.push({
     name: 'Bandsintown',
     bundle_id: 'com.bandsintown.bit',
     app_id: 'Bandsintown Concerts.app',
-    psd_id: 'bandsintown',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-Small-iOS7@2x', 80 ],
@@ -743,7 +1956,7 @@ mios.icons.push({
     name: 'Bank of America',
     bundle_id: 'com.bankofamerica.BofA',
     app_id: 'BofA.app',
-    psd_id: 'bank_of_america',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -753,7 +1966,7 @@ mios.icons.push({
     name: 'Battery Doctor',
     bundle_id: 'com.ksmobile.batterydoctor',
     app_id: 'BatterySaver.app',
-    psd_id: 'battery_doctor',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon-120@2x', 120 ],
@@ -767,7 +1980,7 @@ mios.icons.push({
     name: 'BatteryLife',
     bundle_id: 'com.rbt.batteryLifeApp',
     app_id: 'BatteryLife.app',
-    psd_id: 'batterylife',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -777,7 +1990,7 @@ mios.icons.push({
     name: 'BBC News US',
     bundle_id: 'uk.co.bbc.news',
     app_id: 'BBCNews.app',
-    psd_id: 'bbc_news_us',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-iPad', 72 ],
@@ -792,9 +2005,27 @@ mios.icons.push({
     name: 'Beats',
     bundle_id: 'com.beatsmusic.BeatsMusic',
     app_id: 'BeatsMusic.app',
-    psd_id: 'beats',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'BikeRaceTFG',
+    bundle_id: 'com.topfreegames.bikeracefree',
+    app_id: 'moto.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'icone-120', 120 ],
+            [ 'icone-72', 72 ],
+            [ 'icone-72@2x', 144 ],
+            [ 'icone-76', 76 ],
+            [ 'icone-76@2x', 152 ],
+            [ 'icone', 57 ],
+            [ 'icone@2x', 114 ]
+        ]
     }
 });
 
@@ -802,7 +2033,7 @@ mios.icons.push({
     name: 'Bitmoji',
     bundle_id: 'com.bitstrips.imoji',
     app_id: 'imojiStore.app',
-    psd_id: 'bitmoji',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -812,7 +2043,7 @@ mios.icons.push({
     name: 'Bleacher Report',
     bundle_id: 'com.bleacherreport.TeamStream',
     app_id: 'Team Stream.app ',
-    psd_id: 'bleacher_report',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -836,7 +2067,7 @@ mios.icons.push({
     name: 'Boom Beach',
     bundle_id: 'com.supercell.reef',
     app_id: 'Boom Beach.app',
-    psd_id: 'boom_beach',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -853,7 +2084,7 @@ mios.icons.push({
     name: 'Box',
     bundle_id: 'net.box.BoxNet',
     app_id: 'Box.app',
-    psd_id: 'box',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -863,7 +2094,7 @@ mios.icons.push({
     name: 'BuzzFeed',
     bundle_id: 'com.buzzfeed.buzzfeed',
     app_id: 'buzzfeed.app ',
-    psd_id: 'buzzfeed',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -873,7 +2104,7 @@ mios.icons.push({
     name: 'Bytafont 2',
     bundle_id: 'com.bytafont.BytaFont2',
     app_id: 'BytaFont2.app',
-    psd_id: 'bytafont_2',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -883,7 +2114,7 @@ mios.icons.push({
     name: 'Calenmob',
     bundle_id: 'com.btgs.calenmobfree',
     app_id: 'CalenMob.app',
-    psd_id: 'calenmob',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon_Free60x60@2x', 120 ],
@@ -908,7 +2139,7 @@ mios.icons.push({
     name: 'Canvas',
     bundle_id: 'com.instructure.icanvas',
     app_id: 'iCanvas.app',
-    psd_id: 'canvas',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -918,7 +2149,7 @@ mios.icons.push({
     name: 'Capital One',
     bundle_id: 'com.capitalone.enterprisemobilebanking',
     app_id: 'EnterpriseMobileBanking.app',
-    psd_id: 'capital_one',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-120px', 120 ],
@@ -933,7 +2164,7 @@ mios.icons.push({
     name: 'CBS Sports',
     bundle_id: 'H443NM7F8H.CBSSportsApp',
     app_id: 'CBS Sports.app',
-    psd_id: 'cbs_sports',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -943,7 +2174,7 @@ mios.icons.push({
     name: 'Chase',
     bundle_id: 'com.chase',
     app_id: 'Chase.app',
-    psd_id: 'chase',
+    psd_id: false,
     icons: {
         custom: [
             [ 'ChaseAppIcons29x29', 29 ],
@@ -964,10 +2195,27 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Cisco AnyConnect',
+    bundle_id: 'com.cisco.anyconnect.gui',
+    app_id: 'AnyConnect.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'AnyConnectIcon-iPad', 72 ],
+            [ 'AnyConnectIcon-iPad@2x', 144 ],
+            [ 'AnyConnectIcon', 57 ],
+            [ 'AnyConnectIcon@2x', 114 ],
+            [ 'AnyConnectIconTransparent', 72 ],
+            [ 'AnyConnectIconTransparent@2x', 114 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Citi',
     bundle_id: 'com.citigroup.citimobile',
     app_id: 'Citibank.app',
-    psd_id: 'citi',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon', 60 ],
@@ -982,7 +2230,7 @@ mios.icons.push({
     name: 'Clash of Clans',
     bundle_id: 'com.supercell.magic',
     app_id: 'Clash of Clans.app',
-    psd_id: 'clash_of_the_clans',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1006,7 +2254,7 @@ mios.icons.push({
     name: 'Clear',
     bundle_id: 'com.realmacsoftware.clear',
     app_id: 'Clear.app',
-    psd_id: 'clear',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1014,9 +2262,9 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'Clima',
-    bundle_id: 'com.littlebigcode.Climaear',
+    bundle_id: 'com.littlebigcode.Clima',
     app_id: false,
-    psd_id: 'clima',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1026,7 +2274,7 @@ mios.icons.push({
     name: 'CloudApp',
     bundle_id: 'com.jackietran.Cloudier',
     app_id: 'Cloudier.app',
-    psd_id: 'cloudier',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-New-small', 57 ],
@@ -1041,7 +2289,7 @@ mios.icons.push({
     name: 'CloudMagic Email',
     bundle_id: 'com.CloudMagic.Mail',
     app_id: 'CloudMagic.app',
-    psd_id: 'cloudmagic_email',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -1057,7 +2305,7 @@ mios.icons.push({
     name: 'Coastal',
     bundle_id: 'com.ncr.coastalfcusub',
     app_id: 'Coastal_cfcu.app ',
-    psd_id: 'coastal-24',
+    psd_id: false,
     icons: {
         custom: [
             [ 'appicon-60@2x', 120 ],
@@ -1069,10 +2317,20 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Comedy Central',
+    bundle_id: 'com.mtvn.ccnetwork',
+    app_id: 'ccnetwork.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Comedy Central Stand-Up',
     bundle_id: 'com.mtvn.ccstandup',
     app_id: 'CCStandUp.app',
-    psd_id: 'comedy_central_standup',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon@2x~ipad', 120 ],
@@ -1087,7 +2345,7 @@ mios.icons.push({
     name: 'CommBank',
     bundle_id: 'au.com.commbank.commbank',
     app_id: 'CommBankProd.app',
-    psd_id: 'commbank',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1097,7 +2355,7 @@ mios.icons.push({
     name: 'Convertbot',
     bundle_id: 'com.tapbots.Convertbot',
     app_id: 'Convertbot.app',
-    psd_id: 'converterbot',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon', 60 ],
@@ -1110,14 +2368,9 @@ mios.icons.push({
     name: 'Credit Karma',
     bundle_id: 'com.creditkarma.mobile',
     app_id: 'Credit Karma.app',
-    psd_id: 'credit_karma',
+    psd_id: false,
     icons: {
-        custom: [
-            [ 'icon-568h@2x', 20 ],
-            [ 'icon', 60 ],
-            [ 'icon@2x', 120 ],
-            [ '120 x 120', 120 ]
-        ]
+        appicon: true
     }
 });
 
@@ -1125,8 +2378,9 @@ mios.icons.push({
     name: 'Crunchyroll',
     bundle_id: 'com.crunchyroll.iphone',
     app_id: 'Crunchyroll.app',
-    psd_id: 'crunchyroll',
+    psd_id: false,
     icons: {
+        appicon: true,
         custom: [
             [ '57x57', 57 ],
             [ '72x72', 72 ],
@@ -1143,9 +2397,27 @@ mios.icons.push({
     name: 'Curb',
     bundle_id: 'com.ridecharge.TaxiMagic',
     app_id: 'Curb.app',
-    psd_id: 'curb',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'CVS',
+    bundle_id: 'com.cvs.cvspharmacy',
+    app_id: 'CVSOnlineiPhone.app',
+    psd_id: false,
+    icons: {
+        icon: true,
+        custom: [
+            [ 'app_icon(120x120)_option2@2x', 120 ],
+            [ 'app_icon_option2', 57 ],
+            [ 'app_icon_option2@2x', 114 ],
+            [ 'appIcon120', 120 ],
+            [ 'appIcon58', 58 ],
+            [ 'appIcon80', 80 ]
+        ]
     }
 });
 
@@ -1153,7 +2425,7 @@ mios.icons.push({
     name: 'Cydia',
     bundle_id: 'com.saurik.Cydia',
     app_id: 'Cydia.app',
-    psd_id: 'cydia',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1172,10 +2444,20 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Darkroom',
+    bundle_id: 'co.bergen.Darkroom',
+    app_id: 'Darkroom.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Day One',
     bundle_id: 'com.dayonelog.dayoneiphone',
     app_id: 'DayOne.app',
-    psd_id: 'day_one',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1185,7 +2467,7 @@ mios.icons.push({
     name: 'Deezer',
     bundle_id: 'com.deezer.Deezer',
     app_id: 'Deezer.app',
-    psd_id: 'deezer',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1195,7 +2477,7 @@ mios.icons.push({
     name: 'Deliveries',
     bundle_id: 'com.junecloud.Deliveries',
     app_id: 'Deliveries.app',
-    psd_id: 'deliveries',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1205,7 +2487,7 @@ mios.icons.push({
     name: 'Discover Mobile',
     bundle_id: 'com.discoverfinancial.mobile',
     app_id: 'DiscoverMobile.app',
-    psd_id: 'discover_mobile',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1215,7 +2497,7 @@ mios.icons.push({
     name: 'Discovery Channel',
     bundle_id: 'com.discovery.dscipadbottle',
     app_id: 'Discovery.app',
-    psd_id: 'discovery_channel',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1226,10 +2508,23 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Does not Commute',
+    bundle_id: 'com.mediocre.commute',
+    app_id: 'commute.app',
+    psd_id: false,
+    icons: {
+        icon: true,
+        custom: [
+            [ 'Icon-38@2x', 76 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Dropbox',
     bundle_id: 'com.getdropbox.Dropbox',
     app_id: 'Dropbox.app',
-    psd_id: 'dropbox',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon-29', 29 ],
@@ -1250,7 +2545,17 @@ mios.icons.push({
     name: 'Dropbox Carousel',
     bundle_id: 'com.getdropbox.Carousel',
     app_id: 'Carousel.app',
-    psd_id: 'dropbox_carousel',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Dubsmash',
+    bundle_id: 'com.mobilemotion.dubsmash',
+    app_id: 'Dubsmash.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1260,7 +2565,7 @@ mios.icons.push({
     name: 'Duolingo',
     bundle_id: 'com.duolingo.DuolingoMobile',
     app_id: 'DuolingoMobile.app',
-    psd_id: 'duolingo',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1270,7 +2575,7 @@ mios.icons.push({
     name: 'Ebay',
     bundle_id: 'com.ebay.iphone',
     app_id: 'eBay.app',
-    psd_id: 'ebay',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1284,7 +2589,7 @@ mios.icons.push({
     name: 'Ebay iPad',
     bundle_id: 'com.ebay.core.ipad',
     app_id: 'eBay.app',
-    psd_id: 'ebay_ipad',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1298,7 +2603,7 @@ mios.icons.push({
     name: 'Endomondo',
     bundle_id: 'com.endomondo.Endomondo',
     app_id: 'Endomondo.app',
-    psd_id: 'endomondo',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
@@ -1321,7 +2626,7 @@ mios.icons.push({
     name: 'Epocrates',
     bundle_id: 'com.Epocrates.Rx',
     app_id: 'Essentials.app',
-    psd_id: 'epocrates',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1331,7 +2636,7 @@ mios.icons.push({
     name: 'ESPN ScoreCenter',
     bundle_id: 'com.espn.ScoreCenter',
     app_id: 'SportsCenter.app',
-    psd_id: 'espn_scorecenter',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -1342,7 +2647,7 @@ mios.icons.push({
     name: 'ESPN Watch',
     bundle_id: 'com.espn.WatchESPN',
     app_id: 'WatchESPN.app ',
-    psd_id: 'espn_watch',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1354,10 +2659,33 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Etsy',
+    bundle_id: 'com.etsy.etsyforios',
+    app_id: 'Etsy.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'BOEAppIcon29x29@2x', 58 ],
+            [ 'BOEAppIcon29x29@2x~ipad', 58 ],
+            [ 'BOEAppIcon29x29@3x', 87 ],
+            [ 'BOEAppIcon29x29~ipad', 29 ],
+            [ 'BOEAppIcon40x40@2x', 80 ],
+            [ 'BOEAppIcon40x40@2x~ipad', 80 ],
+            [ 'BOEAppIcon40x40@3x', 120 ],
+            [ 'BOEAppIcon40x40~ipad', 40 ],
+            [ 'BOEAppIcon60x60@2x', 120 ],
+            [ 'BOEAppIcon60x60@3x', 180 ],
+            [ 'BOEAppIcon76x76@2x~ipad', 152 ],
+            [ 'BOEAppIcon76x76~ipad', 76 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Eventbrite',
     bundle_id: 'com.eventbrite.attendee',
     app_id: 'Eventbrite.app',
-    psd_id: 'eventbrite',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1367,7 +2695,7 @@ mios.icons.push({
     name: 'Evernote iPhone',
     bundle_id: 'com.evernote.iPhone.Evernote',
     app_id: 'Evernote.app',
-    psd_id: 'evernote',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1377,7 +2705,7 @@ mios.icons.push({
     name: 'f.lux',
     bundle_id: 'org.herf.iflux',
     app_id: 'iflux.app',
-    psd_id: 'flux',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -1387,7 +2715,7 @@ mios.icons.push({
     name: 'Fab',
     bundle_id: 'com.fab.version1',
     app_id: 'Fab.app',
-    psd_id: 'fab',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -1416,7 +2744,7 @@ mios.icons.push({
     name: 'Facebook',
     bundle_id: 'com.facebook.Facebook',
     app_id: 'Facebook.app',
-    psd_id: 'facebook',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-Production', 57 ],
@@ -1441,7 +2769,7 @@ mios.icons.push({
     name: 'Facebook Groups',
     bundle_id: 'com.facebook.Groups',
     app_id: 'Groups.app',
-    psd_id: 'facebook_groups',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-29@3x', 87 ],
@@ -1458,7 +2786,7 @@ mios.icons.push({
     name: 'Facebook Messenger',
     bundle_id: 'com.facebook.Messenger',
     app_id: 'Messenger.app',
-    psd_id: 'facebook_messenger',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-Production', 57 ],
@@ -1483,7 +2811,7 @@ mios.icons.push({
     name: 'Facebook Paper',
     bundle_id: 'com.facebook.Paper',
     app_id: 'Paper.app',
-    psd_id: 'facebook_paper',
+    psd_id: false,
     icons: {
         folder: '/CajmereResources/Icons/blue',
         icon: true,
@@ -1498,7 +2826,7 @@ mios.icons.push({
     name: 'FaceTune',
     bundle_id: 'com.lightricks.Facetune',
     app_id: 'Facetune.app',
-    psd_id: 'facetune',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1513,7 +2841,7 @@ mios.icons.push({
     name: 'Fandango',
     bundle_id: 'com.fandango.fandango',
     app_id: 'Fandango.app',
-    psd_id: 'fandango',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1523,7 +2851,7 @@ mios.icons.push({
     name: 'FanDuel',
     bundle_id: 'com.fanduel.fd',
     app_id: 'FanDuel.app ',
-    psd_id: 'fanduel',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1533,7 +2861,7 @@ mios.icons.push({
     name: 'Fantastical',
     bundle_id: 'com.flexibits.fantastical2.iphone',
     app_id: false,
-    psd_id: 'fantastical',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1543,7 +2871,7 @@ mios.icons.push({
     name: 'FCC',
     bundle_id: 'com.samknows.fcc',
     app_id: 'FCC.app',
-    psd_id: 'fcc',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon_FCC_29', 29 ],
@@ -1562,7 +2890,7 @@ mios.icons.push({
     name: 'Feedly',
     bundle_id: 'com.devhd.feedly',
     app_id: 'feedly.app',
-    psd_id: 'feedly',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1572,7 +2900,7 @@ mios.icons.push({
     name: 'Fitbit',
     bundle_id: 'com.fitbit.FitbitMobile',
     app_id: 'FitbitMobile.app',
-    psd_id: 'fitbit',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1582,7 +2910,7 @@ mios.icons.push({
     name: 'Five Guys',
     bundle_id: 'com.fiveguys.mobile',
     app_id: 'Five Guys.app ',
-    psd_id: 'five_guys',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1593,10 +2921,20 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Fiverr Faces',
+    bundle_id: 'com.fiverr.FiverrCartoon',
+    app_id: 'FiverrCartoon.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Flappy Bird',
     bundle_id: 'com.dotgears.flap',
     app_id: 'Flap.app',
-    psd_id: 'flappy_bird',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1606,7 +2944,7 @@ mios.icons.push({
     name: 'Flickr',
     bundle_id: 'com.yahoo.flickr',
     app_id: 'com.yahoo.flickr-4574-distribution.app',
-    psd_id: 'flickr',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1614,9 +2952,9 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'Fling',
-    bundle_id: 'fling.app',
-    app_id: 'com.unii.fling',
-    psd_id: 'fling',
+    bundle_id: 'com.unii.fling',
+    app_id: 'fling.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1624,15 +2962,11 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'Flipagram',
-    bundle_id: 'com.flystars.flipagram',
-    app_id: 'slidergram.app',
-    psd_id: 'flipagram',
+    bundle_id: 'com.flipagram.flipagram',
+    app_id: 'Flipagram.app',
+    psd_id: false,
     icons: {
-        custom: [
-            [ 'icon', 60 ],
-            [ 'icon@2x', 120 ],
-            [ 'icon@2x~ipad', 120 ]
-        ]
+        appicon: true
     }
 });
 
@@ -1640,7 +2974,7 @@ mios.icons.push({
     name: 'Flipboard',
     bundle_id: 'com.flipboard.flipboard-ipad',
     app_id: 'Flipboard.app',
-    psd_id: 'flipboard',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1650,7 +2984,7 @@ mios.icons.push({
     name: 'Flixster',
     bundle_id: 'com.jeffreygrossman.moviesapp',
     app_id: 'Flixster.app',
-    psd_id: 'flixter',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1700,7 +3034,7 @@ mios.icons.push({
     name: 'FontBook',
     bundle_id: 'com.fontshop.FontBook',
     app_id: 'FontBook.app',
-    psd_id: 'fontbook',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1709,10 +3043,10 @@ mios.icons.push({
 mios.icons.push({
     name: 'Four Four Two Stats Zone',
     bundle_id: 'com.fourfourtwo.statszone',
-    app_id: 'TotalFootballApp-FFT.app',
-    psd_id: 'fourfourtwo_stats_zone',
+    app_id: 'StatsZone.app',
+    psd_id: false,
     icons: {
-        icon: true
+        appicon: true
     }
 });
 
@@ -1720,9 +3054,19 @@ mios.icons.push({
     name: 'Foxtel Go',
     bundle_id: 'au.com.foxtel.FoxtelGoiPhone',
     app_id: 'foxtelgoiPhone.app',
-    psd_id: 'foxtel_go',
+    psd_id: false,
     icons: {
-        appicon: true
+        custom: [
+            [ 'AppIcons57x57', 57 ],
+            [ 'AppIcons57x57@2x', 114 ],
+            [ 'AppIcons60x60', 60 ],
+            [ 'AppIcons60x60@2x', 120 ],
+            [ 'AppIcons60x60@3x', 180 ],
+            [ 'AppIcons72x72~ipad', 72 ],
+            [ 'AppIcons72x72@2x~ipad', 144 ],
+            [ 'AppIcons76x76~ipad', 76 ],
+            [ 'AppIcons76x76@2x~ipad', 152 ]
+        ]
     }
 });
 
@@ -1730,7 +3074,7 @@ mios.icons.push({
     name: 'Foxtel Guide',
     bundle_id: 'au.com.foxtel.guide',
     app_id: 'Foxtel Guide.app',
-    psd_id: 'foxtel_guide',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -1741,12 +3085,46 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Funny or Die',
+    bundle_id: 'com.funnyordie.FunnyOrDie',
+    app_id: 'FunnyOrDie.app',
+    psd_id: false,
+    icons: {
+        icon: true,
+        custom: [
+            [ 'Icon-Spotlight-40', 40 ],
+            [ 'Icon-Spotlight-40@2x', 80 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Funny or Die News Flash',
+    bundle_id: 'com.funnyordie.newsflash',
+    app_id: 'gnn.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Gate Guru',
     bundle_id: 'com.mobilityapps.gategurufull',
     app_id: 'GateGuru.app ',
-    psd_id: 'gate_guru',
+    psd_id: false,
     icons: {
         icon: true
+    }
+});
+
+mios.icons.push({
+    name: 'GEICO Mobile',
+    bundle_id: 'com.geico.GloveBox',
+    app_id: 'GEICO.app',
+    psd_id: false,
+    icons: {
+        appicon: true
     }
 });
 
@@ -1754,7 +3132,7 @@ mios.icons.push({
     name: 'Genius Scan - PDF Scanner',
     bundle_id: 'com.geniussoftware.GeniusScan',
     app_id: 'Genius Scan.app',
-    psd_id: 'genius_scan',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1764,7 +3142,7 @@ mios.icons.push({
     name: 'Giphy for Messenger',
     bundle_id: 'com.giphy.giphyformessenger',
     app_id: 'Giphy.app',
-    psd_id: 'giphy',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1774,7 +3152,7 @@ mios.icons.push({
     name: 'Google Analytics',
     bundle_id: 'com.google.AnalyticsApp',
     app_id: 'Giant.app',
-    psd_id: 'google_analytics',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon29x29', 29 ],
@@ -1796,7 +3174,7 @@ mios.icons.push({
     name: 'Google Authenticator',
     bundle_id: 'com.google.Authenticator',
     app_id: 'Authenticator.app',
-    psd_id: 'google_authenticator',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1806,7 +3184,7 @@ mios.icons.push({
     name: 'Google Calendar',
     bundle_id: 'com.google.calendar',
     app_id: 'Google Calendar.app',
-    psd_id: 'google_calendar',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1816,7 +3194,7 @@ mios.icons.push({
     name: 'Google Chrome',
     bundle_id: 'com.google.chrome.ios',
     app_id: 'stable.app',
-    psd_id: 'google_chrome',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-29', 29 ],
@@ -1836,7 +3214,7 @@ mios.icons.push({
     name: 'Google Chromecast',
     bundle_id: 'com.google.Chromecast',
     app_id: 'Chromecast.app',
-    psd_id: 'google_chromecast',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1846,7 +3224,7 @@ mios.icons.push({
     name: 'Google Docs',
     bundle_id: 'com.google.Docs',
     app_id: 'Docs.app',
-    psd_id: 'google_docs',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1856,7 +3234,7 @@ mios.icons.push({
     name: 'Google Drive',
     bundle_id: 'com.google.Drive',
     app_id: 'Drive.app',
-    psd_id: 'google_drive',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1866,7 +3244,7 @@ mios.icons.push({
     name: 'Google Earth',
     bundle_id: 'com.google.b612',
     app_id: 'Google Earth.app',
-    psd_id: 'google_earth',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon-ipad', 72 ],
@@ -1881,7 +3259,7 @@ mios.icons.push({
     name: 'Google Gmail',
     bundle_id: 'com.google.Gmail',
     app_id: 'GmailHybrid.app',
-    psd_id: 'google_gmail',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1891,7 +3269,7 @@ mios.icons.push({
     name: 'Google Hangouts',
     bundle_id: 'com.google.hangouts',
     app_id: 'Hangouts.app',
-    psd_id: 'google_hangouts',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1901,7 +3279,7 @@ mios.icons.push({
     name: 'Google Inbox',
     bundle_id: 'com.google.inbox',
     app_id: 'Inbox.app',
-    psd_id: 'google_inbox',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Bigtop-AppIcon29x29~ipad',     29 ],
@@ -1927,7 +3305,7 @@ mios.icons.push({
     name: 'Google Local',
     bundle_id: 'com.google.Local',
     app_id: 'Local.app',
-    psd_id: 'google_local',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -1937,7 +3315,7 @@ mios.icons.push({
     name: 'Google Maps',
     bundle_id: 'com.google.Maps',
     app_id: 'Google Maps.app',
-    psd_id: 'google_maps',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon', 60 ],
@@ -1964,7 +3342,17 @@ mios.icons.push({
     name: 'Google Mobile',
     bundle_id: 'com.google.GoogleMobile',
     app_id: 'Google.app',
-    psd_id: 'google_mobile',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Google News',
+    bundle_id: 'com.google.news',
+    app_id: 'News.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1974,7 +3362,7 @@ mios.icons.push({
     name: 'Google Play Movies',
     bundle_id: 'com.google.Movies',
     app_id: 'Movies.app',
-    psd_id: 'google_play_movies',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -1984,7 +3372,7 @@ mios.icons.push({
     name: 'Google Plus',
     bundle_id: 'com.google.GooglePlus',
     app_id: 'EmSea.app',
-    psd_id: 'google_plus',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon-29', 29 ],
@@ -2009,7 +3397,7 @@ mios.icons.push({
     name: 'Google Sheets',
     bundle_id: 'com.google.Sheets',
     app_id: 'Sheets.app',
-    psd_id: 'google_sheets',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2019,7 +3407,7 @@ mios.icons.push({
     name: 'Google Slides',
     bundle_id: 'com.google.Slides',
     app_id: 'Slides.app',
-    psd_id: 'google_slides',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2029,7 +3417,7 @@ mios.icons.push({
     name: 'Google Snapseed',
     bundle_id: 'com.niksoftware.snapseedforipad',
     app_id: 'Snapseed.app',
-    psd_id: 'google_snapseed',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2039,7 +3427,7 @@ mios.icons.push({
     name: 'Google Translate',
     bundle_id: 'com.google.Translate',
     app_id: 'Translate.app',
-    psd_id: 'google_translate',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2049,7 +3437,7 @@ mios.icons.push({
     name: 'Google Wallet',
     bundle_id: 'com.google.Wallet',
     app_id: 'Wallet.app',
-    psd_id: 'google_wallet',
+    psd_id: false,
     icons: {
         custom: [
             [ 'wallet_app_icon', 76 ],
@@ -2069,7 +3457,7 @@ mios.icons.push({
     name: 'Google Youtube',
     bundle_id: 'com.google.ios.youtube',
     app_id: 'YouTube.app',
-    psd_id: 'google_youtube',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
@@ -2093,7 +3481,7 @@ mios.icons.push({
     name: 'Google Youtube Creator Studio',
     bundle_id: 'com.google.ios.ytcreator',
     app_id: 'CreatorStudio.app',
-    psd_id: 'google_youtube_creator_studio',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-ios6-57', 57 ],
@@ -2113,7 +3501,7 @@ mios.icons.push({
     name: 'GroupMe',
     bundle_id: 'com.groupme.iphone-app',
     app_id: 'GroupMe.app',
-    psd_id: 'groupme',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2123,7 +3511,7 @@ mios.icons.push({
     name: 'Groupon',
     bundle_id: 'com.groupon.grouponapp',
     app_id: 'Groupon.app',
-    psd_id: 'groupon',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2133,7 +3521,7 @@ mios.icons.push({
     name: 'Guitar Tuna',
     bundle_id: 'com.ovelin.guitartuna',
     app_id: 'guitartuna.app',
-    psd_id: 'guitar_tuna',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2143,17 +3531,17 @@ mios.icons.push({
     name: 'Hanging With Friends Paid',
     bundle_id: 'com.zynga.HangingWithFriendsPaid',
     app_id: 'HangingWithFriendsPaid.app',
-    psd_id: 'hanging_with_friends',
+    psd_id: false,
     icons: {
         appicon: true
     }
 });
 
 mios.icons.push({
-    name: 'HBOGo',
+    name: 'HBO Go',
     bundle_id: 'com.hbo.hbogo',
     app_id: 'HBOGO.app',
-    psd_id: 'hbo_go',
+    psd_id: false,
     icons: {
         custom: [
             [ 'hbogo_icon_29x29', 29 ],
@@ -2174,10 +3562,20 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'HBO Now',
+    bundle_id: 'com.hbo.hbonow',
+    app_id: 'HBO.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'HeyHey',
     bundle_id: 'cl.heyheyapp.HeyHey',
     app_id: 'HeyHey.app',
-    psd_id: 'heyhey',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2186,12 +3584,11 @@ mios.icons.push({
 mios.icons.push({
     name: 'Holy Bible',
     bundle_id: 'tv.lifechurch.bible',
-    app_id: 'tv.lifechurch.bible',
-    psd_id: 'holy_bible',
+    app_id: 'Bible.app',
+    psd_id: false,
     icons: {
-        custom: [
-            [ 'com.apple.itunesstored.thumbnail', 114, true ]
-        ]
+        appicon: true,
+        icon: true
     }
 });
 
@@ -2199,7 +3596,7 @@ mios.icons.push({
     name: 'HopStop',
     bundle_id: 'com.hopstop.HopStop',
     app_id: 'HopStop.app',
-    psd_id: 'hopstop',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -2209,7 +3606,7 @@ mios.icons.push({
     name: 'Hot Or Not',
     bundle_id: 'com.badoo.hotornot',
     app_id: 'HotOrNot.app',
-    psd_id: 'hot_or_not',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -2231,10 +3628,20 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Hulu',
+    bundle_id: 'com.hulu.plus',
+    app_id: 'Hulu.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Human',
     bundle_id: 'co.humanco.Human',
     app_id: 'Human.app',
-    psd_id: 'human',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2244,15 +3651,12 @@ mios.icons.push({
     name: 'Huntington',
     bundle_id: 'com.huntington.m',
     app_id: 'Huntington.app',
-    psd_id: 'huntington',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon', 60 ],
             [ 'icon@2x', 120 ],
-            [ 'icon-120@2x', 120 ],
-            [ 'icon-180@3x', 180 ],
-            [ 'icon-Small', 29 ],
-            [ 'icon-Small@2x', 58 ]
+            [ 'icon-60@2x', 120 ]
         ]
     }
 });
@@ -2261,7 +3665,7 @@ mios.icons.push({
     name: 'Hyperlapse',
     bundle_id: 'com.burbn.hyperlapse',
     app_id: 'Hyperlapse.app',
-    psd_id: 'hyperlapse',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2271,7 +3675,17 @@ mios.icons.push({
     name: 'iAlien',
     bundle_id: 'com.appseedinc.aliens',
     app_id: 'iAlien.app ',
-    psd_id: 'ialien',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Ibotta',
+    bundle_id: 'com.ibotta.Ibotta',
+    app_id: 'Ibotta.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2281,7 +3695,17 @@ mios.icons.push({
     name: 'iCleaner',
     bundle_id: 'org.altervista.exilecom.icleaner',
     app_id: 'iCleaner.app',
-    psd_id: 'icleaner',
+    psd_id: false,
+    icons: {
+        icon: true
+    }
+});
+
+mios.icons.push({
+    name: 'iCleaner iPhone 6 Plus',
+    bundle_id: 'com.exile90.icleanerpro',
+    app_id: 'iCleaner.app',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -2291,7 +3715,7 @@ mios.icons.push({
     name: 'IF',
     bundle_id: 'com.ifttt.ifttt',
     app_id: 'IFTTT.app',
-    psd_id: 'ifttt',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2301,7 +3725,7 @@ mios.icons.push({
     name: 'iFile',
     bundle_id: 'eu.heinelt.ifile',
     app_id: 'iFile.app',
-    psd_id: 'ifile',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -2312,7 +3736,17 @@ mios.icons.push({
     name: 'iFunny',
     bundle_id: 'ru.flysoft.ifunny',
     app_id: 'iFunny.app',
-    psd_id: 'ifunny',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'iHeartRadio',
+    bundle_id: 'com.clearchannel.iheartradio',
+    app_id: 'iHeartRadio.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2322,7 +3756,7 @@ mios.icons.push({
     name: 'iLEX R.A.T.',
     bundle_id: 'com.lex.ilexrestore',
     app_id: 'iLexRestore.app',
-    psd_id: 'ilex_rat',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
@@ -2336,7 +3770,7 @@ mios.icons.push({
     name: 'IMDB',
     bundle_id: 'com.imdb.imdb',
     app_id: 'IMDb.app',
-    psd_id: 'imdb',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -2348,10 +3782,50 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Imgur',
+    bundle_id: 'imgurmobile',
+    app_id: 'Imgur.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Imgur Browsr',
+    bundle_id: 'hr.limun-studio.imgur-browser',
+    app_id: 'imgur browser.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'imo',
+    bundle_id: 'imoimiphone',
+    app_id: 'imo.app',
+    psd_id: false,
+    icons: {
+        icon: true
+    }
+});
+
+mios.icons.push({
     name: 'Inbox Messenger',
     bundle_id: 'co.inboxapp.inbox',
     app_id: 'Inbox.app',
-    psd_id: 'inbox_messenger',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Indeed Jobs',
+    bundle_id: 'com.indeed.JobSearch',
+    app_id: 'Indeed Jobs.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2361,7 +3835,7 @@ mios.icons.push({
     name: 'Instacast',
     bundle_id: 'com.vemedio.ios.instacast3',
     app_id: 'Instacast.app',
-    psd_id: 'instacast',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2371,7 +3845,7 @@ mios.icons.push({
     name: 'InstaCollage Free',
     bundle_id: 'com.click2mobile.collagegrameFree',
     app_id: 'instaCollageFree.app',
-    psd_id: 'instacollage_free',
+    psd_id: false,
     icons: {
         custom: [
             [ '114', 114 ],
@@ -2390,7 +3864,7 @@ mios.icons.push({
     name: 'Instagram',
     bundle_id: 'com.burbn.instagram',
     app_id: 'Instagram.app',
-    psd_id: 'instagram',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-57', 57 ],
@@ -2406,7 +3880,7 @@ mios.icons.push({
     name: 'InstaSize',
     bundle_id: 'InstaSize',
     app_id: 'InstaSize.app',
-    psd_id: 'instasize',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -2421,7 +3895,7 @@ mios.icons.push({
     name: 'iTube',
     bundle_id: 'soundcloudbennyfree',
     app_id: 'iTube.app',
-    psd_id: 'itube',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -2431,7 +3905,7 @@ mios.icons.push({
     name: 'Journalized',
     bundle_id: 'com.andrewhart.journal',
     app_id: 'Journalized.app ',
-    psd_id: 'journalized',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -2441,9 +3915,30 @@ mios.icons.push({
     name: 'KakaoTalk',
     bundle_id: 'com.iwilab.KakaoTalk',
     app_id: 'KakaoTalk.app',
-    psd_id: 'kakaotalk',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Keeper',
+    bundle_id: 'D4D2433BGC',
+    app_id: 'Keeper.app',
+    psd_id: false,
+    icons: {
+        appicon: true,
+        custom: [
+            [ 'icon_29', 29 ],
+            [ 'icon_40', 40 ],
+            [ 'icon_58', 58 ],
+            [ 'icon_76', 76 ],
+            [ 'icon_80', 80 ],
+            [ 'icon_87', 87 ],
+            [ 'icon_120', 120 ],
+            [ 'icon_152', 152 ],
+            [ 'icon_180', 180 ]
+        ]
     }
 });
 
@@ -2451,7 +3946,7 @@ mios.icons.push({
     name: 'kik',
     bundle_id: 'com.kik.chat',
     app_id: 'Kik.app',
-    psd_id: 'kik',
+    psd_id: false,
     icons: {
         custom: [
             [ '29x29_Icon', 29 ],
@@ -2471,7 +3966,7 @@ mios.icons.push({
     name: 'Kindle',
     bundle_id: 'com.amazon.Lassen',
     app_id: 'Kindle.app',
-    psd_id: 'kindle',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2481,7 +3976,7 @@ mios.icons.push({
     name: 'LastPass',
     bundle_id: 'com.lastpass.ilastpass',
     app_id: 'LastPass.app',
-    psd_id: 'lastpass',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -2500,13 +3995,13 @@ mios.icons.push({
     name: 'Launch Center Pro',
     bundle_id: 'com.appcubby.launchpro',
     app_id: 'Launch.app',
-    psd_id: 'launch_center_pro',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
             [ 'AppIcon58', 58 ],
             [ 'AppIcon80', 80 ],
-            [ 'AppIcon120', 120 ],
+            [ 'AppIcon120', 120 ]
         ]
     }
 });
@@ -2515,7 +4010,7 @@ mios.icons.push({
     name: 'LINE',
     bundle_id: 'jp.naver.line',
     app_id: 'LINE.app',
-    psd_id: 'line',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2525,7 +4020,7 @@ mios.icons.push({
     name: 'LinkedIn',
     bundle_id: 'com.linkedin.LinkedIn',
     app_id: 'LinkedIn.app',
-    psd_id: 'linkedin',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -2538,19 +4033,9 @@ mios.icons.push({
     name: 'LogMeIn',
     bundle_id: 'com.logmein.logmein',
     app_id: 'LogMeIn.app ',
-    psd_id: 'logmein',
+    psd_id: false,
     icons: {
-        custom: [
-            [ 'itunes_app_icon_small_57x57', 57 ],
-            [ 'itunes_app_icon_small_57x57@2x', 114 ],
-            [ 'itunes_app_icon_small_60x60', 60 ],
-            [ 'itunes_app_icon_small_60x60@2x', 120 ],
-            [ 'itunes_app_icon_small_60x60@3x', 180 ],
-            [ 'itunes_app_icon_small_72x72', 72 ],
-            [ 'itunes_app_icon_small_72x72@2x', 144 ],
-            [ 'itunes_app_icon_small_76x76', 76 ],
-            [ 'itunes_app_icon_small_76x76@2x', 152 ]
-        ]
+        appicon: true
     }
 });
 
@@ -2558,7 +4043,7 @@ mios.icons.push({
     name: 'LoseIt',
     bundle_id: 'com.fitnow.loseit',
     app_id: 'Lose It!.app',
-    psd_id: 'lose_it',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -2575,9 +4060,9 @@ mios.icons.push({
     name: 'Lyft',
     bundle_id: 'com.zimride.instant',
     app_id: 'lyft.app',
-    psd_id: 'lyft',
+    psd_id: false,
     icons: {
-        icon: true
+        appicon: true
     }
 });
 
@@ -2585,7 +4070,7 @@ mios.icons.push({
     name: 'Mailbox',
     bundle_id: 'com.orchestra.v2',
     app_id: 'Mailbox.app',
-    psd_id: 'mailbox',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2595,7 +4080,7 @@ mios.icons.push({
     name: 'Make It Big',
     bundle_id: 'com.atrinh.makeitbig',
     app_id: 'makeitbig.app',
-    psd_id: 'make_it_big',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2605,7 +4090,7 @@ mios.icons.push({
     name: 'Manga Rock',
     bundle_id: 'com.notabasement.mr2',
     app_id: 'Manga Rock.app',
-    psd_id: 'manga_rock',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2615,7 +4100,7 @@ mios.icons.push({
     name: 'Mashable',
     bundle_id: 'com.mashable.ios.phoenix',
     app_id: 'Mashable.app',
-    psd_id: 'mashable',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2625,7 +4110,7 @@ mios.icons.push({
     name: 'Match.com',
     bundle_id: 'com.match.match.com',
     app_id: 'Match.com.app ',
-    psd_id: 'match',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2635,7 +4120,7 @@ mios.icons.push({
     name: 'Maybank',
     bundle_id: 'my.com.maybank2u.mobile',
     app_id: false,
-    psd_id: 'maybank',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -2652,7 +4137,7 @@ mios.icons.push({
             [ 'Icon-76@3x', 228 ],
             [ 'Icon-120', 120 ],
             [ 'Icon-120@2x', 240 ],
-            [ 'Icon-120@3x', 360 ],
+            [ 'Icon-120@3x', 360 ]
         ]
     }
 });
@@ -2661,7 +4146,7 @@ mios.icons.push({
     name: 'Memoir',
     bundle_id: 'com.yourmemoir.memoir',
     app_id: 'Memoir.app',
-    psd_id: 'memoir',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon Production29x29', 29 ],
@@ -2696,7 +4181,7 @@ mios.icons.push({
     name: 'Microsoft Excel',
     bundle_id: 'com.microsoft.Office.Excel',
     app_id: 'Microsoft Excel iOS.app',
-    psd_id: 'microsoft_excel',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2706,7 +4191,7 @@ mios.icons.push({
     name: 'Microsoft OneDrive',
     bundle_id: 'com.microsoft.skydrive',
     app_id: '1.app',
-    psd_id: 'microsoft_onedrive',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -2717,7 +4202,7 @@ mios.icons.push({
     name: 'Microsoft Outlook',
     bundle_id: 'com.microsoft.Office.Outlook',
     app_id: 'app-ios.app',
-    psd_id: 'microsoft_outlook',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon-outlook.prod29x29', 29 ],
@@ -2747,7 +4232,7 @@ mios.icons.push({
     name: 'Microsoft OWA',
     bundle_id: 'com.microsoft.exchange.iphone',
     app_id: 'MOWAHost-iPhone.app',
-    psd_id: 'microsoft_owa',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon-iPhone29x29', 29 ],
@@ -2768,7 +4253,7 @@ mios.icons.push({
     name: 'Microsoft Powerpoint',
     bundle_id: 'com.microsoft.Office.Powerpoint',
     app_id: 'Microsoft PowerPoint iOS.app',
-    psd_id: 'microsoft_powerpoint',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2778,7 +4263,7 @@ mios.icons.push({
     name: 'Microsoft Smartglass',
     bundle_id: 'com.microsoft.smartglass',
     app_id: 'SmartGlass.app',
-    psd_id: 'xbox_one_smartglass',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2788,7 +4273,7 @@ mios.icons.push({
     name: 'Microsoft Word',
     bundle_id: 'com.microsoft.Office.Word',
     app_id: 'Microsoft Word iOS.app',
-    psd_id: 'microsoft_word',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2798,7 +4283,7 @@ mios.icons.push({
     name: 'Midori',
     bundle_id: 'com.sukolsak.Midori',
     app_id: false,
-    psd_id: 'midori',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2808,7 +4293,7 @@ mios.icons.push({
     name: 'Mint.com',
     bundle_id: 'com.mint.internal',
     app_id: 'Mint.app',
-    psd_id: 'mint',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2818,7 +4303,7 @@ mios.icons.push({
     name: 'MLB at Bat',
     bundle_id: 'com.mlb.AtBatUniversal',
     app_id: 'AtBat.Full.app',
-    psd_id: 'mlb_at_bat',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -2828,7 +4313,7 @@ mios.icons.push({
     name: 'Mobile Terminal',
     bundle_id: 'com.googlecode.mobileterminal.Terminal',
     app_id: 'Terminal.app',
-    psd_id: 'terminal',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -2838,7 +4323,7 @@ mios.icons.push({
     name: 'Moby Dick, House of Kabob',
     bundle_id: 'com.mobysonline.mobydickhouseofkabob.ios',
     app_id: 'MobyDick.app ',
-    psd_id: 'moby_dick_house_of_kabob',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -2849,10 +4334,35 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Mortal Kombat',
+    bundle_id: 'com.wb.MK.Brawler2015',
+    app_id: 'UDKGame.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'Icon29', 29 ],
+            [ 'Icon29@2x', 58 ],
+            [ 'Icon40', 40 ],
+            [ 'Icon40@2x', 80 ],
+            [ 'Icon50', 100 ],
+            [ 'Icon50@2x', 200 ],
+            [ 'Icon57', 57 ],
+            [ 'Icon57@2x', 114 ],
+            [ 'Icon60', 60 ],
+            [ 'Icon60@2x', 120 ],
+            [ 'Icon72', 72 ],
+            [ 'Icon72@2x', 144 ],
+            [ 'Icon76', 76 ],
+            [ 'Icon76@2x', 152 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Moves',
-    bundle_id: 'Moves.app',
-    app_id: 'com.protogeo.Moves',
-    psd_id: 'moves',
+    bundle_id: 'com.protogeo.Moves',
+    app_id: 'Moves.app',
+    psd_id: false,
     icons: {
         custom: [
             [ 'moves-icon-ios6-iphone-small', 29 ],
@@ -2866,10 +4376,20 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Musicbox',
+    bundle_id: 'com.freemake.musicbox',
+    app_id: 'FreemakeMusicFinderDownloaderUIIOS.app',
+    psd_id: false,
+    icons: {
+        icon: true
+    }
+});
+
+mios.icons.push({
     name: 'My Mazda',
     bundle_id: 'com.ccas-ccg.MazdaAssist',
     app_id: 'AgeroRSA.app',
-    psd_id: 'mymazda',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -2880,7 +4400,7 @@ mios.icons.push({
     name: 'MyAT&T',
     bundle_id: 'com.att.osd.myWireless',
     app_id: 'myATTThin.app',
-    psd_id: 'myatt',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -2891,7 +4411,17 @@ mios.icons.push({
     name: 'MyFitnessPal',
     bundle_id: 'com.myfitnesspal.mfp',
     app_id: 'MyFitnessPal.app',
-    psd_id: 'myfitnesspal',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'MyMaxis',
+    bundle_id: 'com.Maxis.MyMaxis',
+    app_id: false,
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2901,7 +4431,7 @@ mios.icons.push({
     name: 'MyPantone',
     bundle_id: 'com.xrite.mypantone',
     app_id: 'myPANTONE.app',
-    psd_id: 'pantone',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
@@ -2916,9 +4446,27 @@ mios.icons.push({
     name: 'MyScript Calculator',
     bundle_id: 'com.visionobjects.myscriptcalculator',
     app_id: 'MyScriptCalculator.app ',
-    psd_id: 'myscript_calculator',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'N_eye',
+    bundle_id: 'com.n.eye.n.eye',
+    app_id: 'N_eye.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ '57', 57 ],
+            [ '72', 72 ],
+            [ '76', 76 ],
+            [ '114', 114 ],
+            [ '120', 120 ],
+            [ '144', 144 ],
+            [ '152', 152 ]
+        ]
     }
 });
 
@@ -2926,7 +4474,7 @@ mios.icons.push({
     name: 'Navy Federal Credit Union',
     bundle_id: 'org.navyfederal.nfcuforiphone',
     app_id: 'Navy Federal.app',
-    psd_id: 'navy_federal_credit_union ',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -2940,7 +4488,7 @@ mios.icons.push({
     name: 'NBA',
     bundle_id: 'com.nbadigital.gametimelt',
     app_id: 'GameTimeUniversal.app',
-    psd_id: 'nba',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -2961,7 +4509,7 @@ mios.icons.push({
     name: 'Netflix',
     bundle_id: 'com.netflix.Netflix',
     app_id: 'Netflix.app',
-    psd_id: 'netflix',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2971,7 +4519,7 @@ mios.icons.push({
     name: 'New Words With Friends',
     bundle_id: 'com.newtoyinc.NewWordsWithFriendsFree',
     app_id: 'Words2.app',
-    psd_id: 'new_words_with_friends',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -2981,7 +4529,7 @@ mios.icons.push({
     name: 'Nexus Student Ministry',
     bundle_id: 'com.subsplashconsulting.Nexus-Student-Ministry',
     app_id: 'TCA.app',
-    psd_id: 'nexus_student_ministry',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
@@ -3000,7 +4548,7 @@ mios.icons.push({
     name: 'NFL Fantasy Football',
     bundle_id: 'com.nfl.fantasy.core',
     app_id: 'NFL Fantasy.app',
-    psd_id: 'nfl_fantasy',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3010,7 +4558,7 @@ mios.icons.push({
     name: 'NFL Mobile',
     bundle_id: 'com.nfl.gamecenter',
     app_id: 'NFL Mobile USA Prod.app',
-    psd_id: 'nfl_mobile',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3020,9 +4568,13 @@ mios.icons.push({
     name: 'NHL',
     bundle_id: 'com.nhl.gc1112.free',
     app_id: 'NHL1415.app',
-    psd_id: 'nhl',
+    psd_id: false,
     icons: {
-        icon: true
+        appicon: true,
+        custom: [
+            [ 'Icon', 60 ],
+            [ 'Icon@2x', 120 ]
+        ]
     }
 });
 
@@ -3030,7 +4582,7 @@ mios.icons.push({
     name: 'Nike+',
     bundle_id: 'com.nike.nikeplus-gps',
     app_id: 'NikePlus.app',
-    psd_id: 'nike_plus',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3040,7 +4592,7 @@ mios.icons.push({
     name: 'Notability',
     bundle_id: 'com.gingerlabs.Notability',
     app_id: 'Notability.app',
-    psd_id: 'notability',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -3056,7 +4608,7 @@ mios.icons.push({
     name: 'OkCupid',
     bundle_id: 'com.okcupid.app',
     app_id: 'OkCupid.app ',
-    psd_id: 'okcupid',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3066,7 +4618,7 @@ mios.icons.push({
     name: 'Ookla Speedtest',
     bundle_id: 'com.ookla.speedtest',
     app_id: 'SpeedTest.app',
-    psd_id: 'ookla_speedtest',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3076,7 +4628,7 @@ mios.icons.push({
     name: 'ooVoo',
     bundle_id: 'com.oovoo.iphone.free',
     app_id: 'ooVoo.app',
-    psd_id: 'oovoo',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3086,9 +4638,38 @@ mios.icons.push({
     name: 'Open Table',
     bundle_id: 'com.contextoptional.OpenTable',
     app_id: 'OpenTable.app ',
-    psd_id: 'opentable',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'OpenVPN Connect',
+    bundle_id: 'net.openvpn.connect.app',
+    app_id: 'OpenVPN.app ',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'Icon-100x100', 100 ],
+            [ 'Icon-120x120', 120 ],
+            [ 'Icon-144x144', 144 ],
+            [ 'Icon-152x152', 152 ],
+            [ 'Icon-40x40', 40 ],
+            [ 'Icon-72', 72 ],
+            [ 'Icon-76x76', 76 ],
+            [ 'Icon-80x80', 80 ],
+            [ 'Icon-Small-50', 50 ],
+            [ 'Icon-Small-50@2x', 100 ],
+            [ 'Icon-Small', 29 ],
+            [ 'Icon-Small@2x', 58 ],
+            [ 'Icon', 57 ],
+            [ 'Icon@2x', 114 ],
+            [ 'OpenVPN-Small', 29 ],
+            [ 'OpenVPN-Small@2x', 58 ],
+            [ 'OpenVPN', 57 ],
+            [ 'OpenVPN@2x', 114 ]
+        ]
     }
 });
 
@@ -3096,9 +4677,31 @@ mios.icons.push({
     name: 'Overcast',
     bundle_id: 'fm.overcast.overcast',
     app_id: 'Overcast.app',
-    psd_id: 'overcast',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Pacemaker',
+    bundle_id: 'com.pacemakermusic.pacemaker.001',
+    app_id: 'Pacemaker.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'pma_icon_29x29', 29 ],
+            [ 'pma_icon_40x40', 40 ],
+            [ 'pma_icon_50x50', 50 ],
+            [ 'pma_icon_58x58', 58 ],
+            [ 'pma_icon_72x72', 72 ],
+            [ 'pma_icon_76x76', 76 ],
+            [ 'pma_icon_80x80', 80 ],
+            [ 'pma_icon_100x100', 100 ],
+            [ 'pma_icon_120x120', 120 ],
+            [ 'pma_icon_144x144', 144 ],
+            [ 'pma_icon_152x152', 152 ]
+        ]
     }
 });
 
@@ -3106,7 +4709,7 @@ mios.icons.push({
     name: 'Palringo',
     bundle_id: 'com.palringo.Palringo',
     app_id: 'Palringo.app',
-    psd_id: 'palringo',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3116,7 +4719,7 @@ mios.icons.push({
     name: 'Pandora',
     bundle_id: 'com.pandora',
     app_id: 'Pandora.app',
-    psd_id: 'pandora',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3126,7 +4729,7 @@ mios.icons.push({
     name: 'Pangu',
     bundle_id: 'io.pangu.loader',
     app_id: 'pangu.app',
-    psd_id: 'pangu',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3136,7 +4739,7 @@ mios.icons.push({
     name: 'Papa Johns',
     bundle_id: 'com.papajohns.ios',
     app_id: 'Papa John\'s.app',
-    psd_id: 'papa_johns',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3146,7 +4749,7 @@ mios.icons.push({
     name: 'Parcel',
     bundle_id: 'com.mr-brightside.myParcel',
     app_id: false,
-    psd_id: 'parcel',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3156,7 +4759,7 @@ mios.icons.push({
     name: 'Paypal',
     bundle_id: 'com.yourcompany.PPClient',
     app_id: 'PayPal.app',
-    psd_id: 'paypal',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -3169,9 +4772,37 @@ mios.icons.push({
     name: 'Pebble Smartwatch',
     bundle_id: 'com.getpebble.ios',
     app_id: 'PebbleApp.app',
-    psd_id: 'pebble_smartwatch',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Period Tracker (Sevenlogics)',
+    bundle_id: 'com.sevenlogics.PeriodTracker',
+    app_id: 'PeriodTracker.app',
+    psd_id: false,
+    icons: {
+        appicon: true,
+        icon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Period Tracker Lite',
+    bundle_id: 'com.gpapps.ptrackerlite',
+    app_id: 'P Tracker Lite.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'Icon', 57 ],
+            [ 'Icon@2x', 114 ],
+            [ 'lite_icon', 57 ],
+            [ 'lite_icon@2x', 114 ],
+            [ 'lite_icon-120', 120 ],
+            [ 'lite_icon-180', 180 ]
+        ]
     }
 });
 
@@ -3179,7 +4810,7 @@ mios.icons.push({
     name: 'Periscope',
     bundle_id: 'com.bountylabs.periscope',
     app_id: 'Periscope.app',
-    psd_id: 'periscope',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3189,7 +4820,7 @@ mios.icons.push({
     name: 'PHHHOTO',
     bundle_id: 'com.hyperhyper.phhhoto-iphone',
     app_id: 'PHHHOTO-iPhone.app',
-    psd_id: 'phhhoto',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3199,9 +4830,26 @@ mios.icons.push({
     name: 'PhotoMath',
     bundle_id: 'com.microblink.PhotoMath',
     app_id: 'PhotoMath.app',
-    psd_id: 'photomath',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Pic Collage',
+    bundle_id: 'com.cardinalblue.PicCollage',
+    app_id: 'Pic Collage.app',
+    psd_id: false,
+    icons: {
+        icon: true,
+        appicon: true,
+        custom: [
+            [ 'Icon-120', 120 ],
+            [ 'Icon-152', 152 ],
+            [ 'Icon@2x~ipad', 72 ],
+            [ 'Icon~ipad', 144 ]
+        ]
     }
 });
 
@@ -3209,7 +4857,7 @@ mios.icons.push({
     name: 'Pic Jointer',
     bundle_id: 'com.lileping.photoframepro',
     app_id: 'PicFrame_ver_1.0.0.app',
-    psd_id: 'picjointer',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -3229,9 +4877,13 @@ mios.icons.push({
     name: 'PicPlayPost',
     bundle_id: 'com.flambestudios.videoinframe',
     app_id: 'PicPlayPost.app',
-    psd_id: 'picplaypost',
+    psd_id: false,
     icons: {
-        icon: true
+        icon: true,
+        custom: [
+            [ 'Icon-80', 80 ],
+            [ 'Icon-120', 120 ]
+        ]
     }
 });
 
@@ -3239,7 +4891,7 @@ mios.icons.push({
     name: 'Pics HD for Reddit',
     bundle_id: 'com.funpokesinc.redditpics',
     app_id: 'RedditPics.app',
-    psd_id: 'pics_hd_for_reddit',
+    psd_id: false,
     icons: {
         custom: [
             [ 'RedditPics29x29', 29 ],
@@ -3261,7 +4913,7 @@ mios.icons.push({
     name: 'PicsArt',
     bundle_id: 'com.picsart.studio',
     app_id: 'PicsArt.app ',
-    psd_id: 'picsart',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3271,7 +4923,7 @@ mios.icons.push({
     name: 'Pinterest',
     bundle_id: 'pinterest',
     app_id: 'Pinterest.app',
-    psd_id: 'pinterest',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3281,7 +4933,17 @@ mios.icons.push({
     name: 'Playstation',
     bundle_id: 'com.playstation.eu.playstationadhoc',
     app_id: 'PlayStationApp.app',
-    psd_id: 'playstation',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Plenty of Fish',
+    bundle_id: 'com.pof.mobileapp.iphone',
+    app_id: 'POF.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3291,7 +4953,7 @@ mios.icons.push({
     name: 'Plex',
     bundle_id: 'com.plexapp.plex',
     app_id: 'Plex.app',
-    psd_id: 'plex',
+    psd_id: false,
     icons: {
         custom: [
             [ 'PlexMobile_29x29', 29 ],
@@ -3318,7 +4980,7 @@ mios.icons.push({
     name: 'Pluto TV',
     bundle_id: 'tv.pluto.ios',
     app_id: 'ios.app',
-    psd_id: 'pluto_tv',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3328,7 +4990,7 @@ mios.icons.push({
     name: 'PNC Mobile',
     bundle_id: 'com.pnc.pncmobile',
     app_id: 'Pnc.app',
-    psd_id: 'pnc_mobile',
+    psd_id: false,
     icons: {
         custom: [
             [ 'appicon', 60 ],
@@ -3341,7 +5003,7 @@ mios.icons.push({
     name: 'Pocket',
     bundle_id: 'com.ideashower.ReadItLaterPro',
     app_id: 'ReadItLaterPro.app',
-    psd_id: 'pocket',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3351,7 +5013,7 @@ mios.icons.push({
     name: 'ProTube for YouTube',
     bundle_id: 'de.j-gessner.protube2',
     app_id: 'ProTube 2.app',
-    psd_id: 'protube',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3361,7 +5023,7 @@ mios.icons.push({
     name: 'PSECU',
     bundle_id: 'com.PSECU.Mobile',
     app_id: 'PSECU Mobile.app',
-    psd_id: 'psecu',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -3375,7 +5037,7 @@ mios.icons.push({
     name: 'Puffin Free',
     bundle_id: 'com.cloudmosa.PuffinFree',
     app_id: 'Puffin Free.app',
-    psd_id: 'puffin_free',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -3391,7 +5053,7 @@ mios.icons.push({
     name: 'Pushbullet',
     bundle_id: 'com.pushbullet.client',
     app_id: 'Pushbullet.app',
-    psd_id: 'pushbullet',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3399,11 +5061,27 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'QQ International',
-    bundle_id: 'com.tencent.mQQi',
+    bundle_id: 'com.tencent.mqq',
     app_id: 'QQ.app',
-    psd_id: 'qq_international',
+    psd_id: false,
     icons: {
-        icon: true
+        custom: [
+            [ 'AppIcon-129x29', 29 ],
+            [ 'AppIcon-129x29@2x', 58 ],
+            [ 'AppIcon-129x29@2x~ipad', 58 ],
+            [ 'AppIcon-129x29@3x', 87 ],
+            [ 'AppIcon-129x29~ipad', 87 ],
+            [ 'AppIcon-140x40@2x', 80 ],
+            [ 'AppIcon-140x40@2x~ipad', 80 ],
+            [ 'AppIcon-157x57', 57 ],
+            [ 'AppIcon-157x57@2x', 114 ],
+            [ 'AppIcon-160x60@2x', 120 ],
+            [ 'AppIcon-160x60@3x', 180 ],
+            [ 'AppIcon-172x72@2x~ipad', 144 ],
+            [ 'AppIcon-172x72~ipad', 72 ],
+            [ 'AppIcon-176x76@2x~ipad', 156 ],
+            [ 'AppIcon-176x76~ipad', 76 ]
+        ]
     }
 });
 
@@ -3411,7 +5089,7 @@ mios.icons.push({
     name: 'QR Reader',
     bundle_id: 'com.TapMediaLtd.QRReader',
     app_id: 'QRReader.app',
-    psd_id: 'qr_reader',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon', 60 ],
@@ -3425,7 +5103,7 @@ mios.icons.push({
     name: 'QuizUp',
     bundle_id: 'com.plainvanillacorp.quizup',
     app_id: 'QuizUp.app',
-    psd_id: 'quizup',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -3439,7 +5117,7 @@ mios.icons.push({
     name: 'RadarScope',
     bundle_id: 'com.basevelocity.RadarScope',
     app_id: false,
-    psd_id: 'radarscope',
+    psd_id: false,
     icons: {
         custom: [
             [ 'RadarScope-iOS App Icon29x29', 29 ],
@@ -3466,7 +5144,7 @@ mios.icons.push({
     name: 'Rdio',
     bundle_id: 'com.rdio.player',
     app_id: 'Rdio.app',
-    psd_id: 'rdio',
+    psd_id: false,
     icons: {
         folder: '/Images',
         icon: true,
@@ -3481,7 +5159,7 @@ mios.icons.push({
     name: 'Red Laser',
     bundle_id: 'com.ebay.redlaserproper',
     app_id: 'RedLaser.app',
-    psd_id: 'redlaser',
+    psd_id: false,
     icons: {
         custom: [
             [ 'rl-icon', 60 ],
@@ -3498,7 +5176,7 @@ mios.icons.push({
     name: 'Redd',
     bundle_id: 'com.craigmerchant.redd',
     app_id: 'Redd.app',
-    psd_id: 'redd',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3508,7 +5186,7 @@ mios.icons.push({
     name: 'Reddit Alien Blue',
     bundle_id: 'com.reddit.alienblue',
     app_id: 'AlienBlue.app',
-    psd_id: 'reddit_alienblue',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -3528,7 +5206,7 @@ mios.icons.push({
     name: 'Reddit Alien Blue HD',
     bundle_id: 'com.reddit.alienbluehd',
     app_id: 'AlienBlueHD.app',
-    psd_id: 'reddit_alienblue',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -3548,7 +5226,7 @@ mios.icons.push({
     name: 'Reddit AMA',
     bundle_id: 'com.reddit.ama',
     app_id: 'ama.app',
-    psd_id: 'reddit_ama',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3558,7 +5236,7 @@ mios.icons.push({
     name: 'Redfin',
     bundle_id: 'com.redfin.redfin',
     app_id: 'Redfin.app ',
-    psd_id: 'redfin',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -3569,7 +5247,7 @@ mios.icons.push({
     name: 'Reeder',
     bundle_id: 'com.reederapp.rkit2.ios',
     app_id: false,
-    psd_id: 'reeder',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3579,7 +5257,7 @@ mios.icons.push({
     name: 'Retail Me Not',
     bundle_id: 'com.whaleshark.retailmenot',
     app_id: 'RetailMeNot.app',
-    psd_id: 'retailmenot',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3589,9 +5267,27 @@ mios.icons.push({
     name: 'Retry',
     bundle_id: 'com.rovio.retry',
     app_id: 'retry.app ',
-    psd_id: 'retry',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Rhapsody',
+    bundle_id: 'com.rhapsody.iphone.Rhapsody3',
+    app_id: 'Rhapsody.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'RhapsodyIcon-120', 120 ],
+            [ 'RhapsodyIcon-57', 57 ],
+            [ 'RhapsodyIcon-57@2x', 114 ],
+            [ 'RhapsodyIcon-72', 72 ],
+            [ 'RhapsodyIcon-72@2x', 144 ],
+            [ 'RhapsodyIcon-76', 76 ],
+            [ 'RhapsodyIcon-76@2x', 152 ]
+        ]
     }
 });
 
@@ -3599,7 +5295,7 @@ mios.icons.push({
     name: 'Robinhood',
     bundle_id: 'com.robinhood.release.Robinhood',
     app_id: 'Robinhood.app',
-    psd_id: 'robinhood',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3609,7 +5305,7 @@ mios.icons.push({
     name: 'Screeny',
     bundle_id: 'com.nfnlabs.screeny',
     app_id: 'Screeny.app',
-    psd_id: 'screeny',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3619,17 +5315,17 @@ mios.icons.push({
     name: 'Setlist',
     bundle_id: 'com.mediumrare.setlist',
     app_id: 'Setlist.app',
-    psd_id: 'setlist',
+    psd_id: false,
     icons: {
         icon: true
     }
 });
 
 mios.icons.push({
-    name: 'Shazam',
+    name: 'Shazam Free',
     bundle_id: 'com.shazam.Shazam',
     app_id: 'Shazam.app',
-    psd_id: 'shazam',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcons_Free57x57', 57 ],
@@ -3644,10 +5340,28 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Shazam Encore',
+    bundle_id: 'com.shazam.encore.Shazam',
+    app_id: 'Shazam.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'AppIcons_Encore57x57', 57 ],
+            [ 'AppIcons_Encore57x57@2x', 114 ],
+            [ 'AppIcons_Encore60x60@2x', 120 ],
+            [ 'AppIcons_Encore72x72@2x~ipad', 144 ],
+            [ 'AppIcons_Encore72x72~ipad', 72 ],
+            [ 'AppIcons_Encore76x76@2x~ipad', 152 ],
+            [ 'AppIcons_Encore76x76~ipad', 76 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Showtime Anytime',
     bundle_id: 'com.showtime.showtimeanytime',
     app_id: 'showtimeanytime.app',
-    psd_id: 'showtime_anytime',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3657,9 +5371,25 @@ mios.icons.push({
     name: 'Simple',
     bundle_id: 'com.simple.Simple',
     app_id: 'Simple.app',
-    psd_id: 'simple',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Sing!',
+    bundle_id: 'com.smule.sing',
+    app_id: 'Sing!.app',
+    psd_id: false,
+    icons: {
+        appicon: true,
+        custom: [
+            [ 'icon_appicon_100', 30 ],
+            [ 'icon_appicon_100@2x', 60 ],
+            [ 'icon_appicon_100@2x~ipad', 100 ],
+            [ 'icon_appicon_100~ipad', 50 ]
+        ]
     }
 });
 
@@ -3667,7 +5397,7 @@ mios.icons.push({
     name: 'Skype',
     bundle_id: 'com.skype.skype',
     app_id: 'Skype.app',
-    psd_id: 'skype',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3677,7 +5407,17 @@ mios.icons.push({
     name: 'Slack',
     bundle_id: 'com.tinyspeck.chatlyio',
     app_id: 'slack.app',
-    psd_id: 'slack',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Slacker Radio',
+    bundle_id: 'com.slacker.radio',
+    app_id: 'Slacker.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3687,7 +5427,7 @@ mios.icons.push({
     name: 'Sleep Cycle',
     bundle_id: 'com.lexwarelabs.goodmorning',
     app_id: 'GoodMorning.app',
-    psd_id: 'sleep_cycle',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -3707,7 +5447,7 @@ mios.icons.push({
     name: 'SleepGenius',
     bundle_id: 'com.sleepgenius.SleepGenius2',
     app_id: 'SleepGenius.app',
-    psd_id: 'sleepgenius',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3717,7 +5457,17 @@ mios.icons.push({
     name: 'Slick Deals',
     bundle_id: 'com.slickdeals.mobile',
     app_id: 'Slickdeals.app',
-    psd_id: 'slick_deals',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Smartplayer',
+    bundle_id: 'com.shaddeen.SmartPlayer',
+    app_id: false,
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3727,7 +5477,7 @@ mios.icons.push({
     name: 'SnapChat',
     bundle_id: 'com.toyopagroup.picaboo',
     app_id: 'Snapchat.app',
-    psd_id: 'snapchat',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -3745,7 +5495,7 @@ mios.icons.push({
     name: 'Sniper Shooter',
     bundle_id: 'com.fungames.snipershooter',
     app_id: 'template.app',
-    psd_id: 'sniper_shooter',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon', 60 ],
@@ -3757,7 +5507,7 @@ mios.icons.push({
             [ 'icon114', 114 ],
             [ 'icon120', 120 ],
             [ 'icon144', 144 ],
-            [ 'icon152', 152 ],
+            [ 'icon152', 152 ]
         ]
     }
 });
@@ -3766,7 +5516,7 @@ mios.icons.push({
     name: 'Sosh',
     bundle_id: 'com.sosh.turtle',
     app_id: 'Sosh.app ',
-    psd_id: 'sosh',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3776,7 +5526,7 @@ mios.icons.push({
     name: 'SoundCloud',
     bundle_id: 'com.soundcloud.TouchApp',
     app_id: 'SoundCloud.app',
-    psd_id: 'soundcloud',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3786,7 +5536,7 @@ mios.icons.push({
     name: 'SoundHound',
     bundle_id: 'com.melodis.soundhound.free',
     app_id: 'midomi-free.app',
-    psd_id: 'soundhound',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon-Freemium29x29@2x', 58 ],
@@ -3809,7 +5559,7 @@ mios.icons.push({
     name: 'SoundHound Pro',
     bundle_id: 'com.melodis.midomi',
     app_id: 'midomi.app',
-    psd_id: 'soundhound_pro',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon-Inf29x29@2x', 58 ],
@@ -3832,7 +5582,7 @@ mios.icons.push({
     name: 'Splitwise',
     bundle_id: 'com.Splitwise.SplitwiseMobile',
     app_id: 'Splitwise.app',
-    psd_id: 'splitwise',
+    psd_id: false,
     icons: {
         custom: [
             [ '29', 29 ],
@@ -3853,7 +5603,7 @@ mios.icons.push({
     name: 'Spotify',
     bundle_id: 'com.spotify.client',
     app_id: 'Spotify.app',
-    psd_id: 'spotify',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3863,7 +5613,7 @@ mios.icons.push({
     name: 'Springtomize',
     bundle_id: 'com.filippobiga.springtomize3-app',
     app_id: 'SpringtomizeApp.app',
-    psd_id: 'springtomize',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon40x40', 40 ],
@@ -3882,7 +5632,7 @@ mios.icons.push({
     name: 'Square Cash',
     bundle_id: 'com.squareup.cash',
     app_id: 'Cash.app',
-    psd_id: 'square_cash',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3892,9 +5642,27 @@ mios.icons.push({
     name: 'Starbucks',
     bundle_id: 'com.starbucks.mystarbucks',
     app_id: 'Starbucks.app',
-    psd_id: 'starbucks',
+    psd_id: false,
     icons: {
         appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Starbucks Malaysia',
+    bundle_id: 'com.starbucks.my',
+    app_id: '',
+    psd_id: false,
+    icons: {
+        appicon: true,
+        custom: [
+            [ 'AppIcon 60', 60 ],
+            [ 'AppIcon 60@2x', 120 ],
+            [ 'AppIcon 60@3x', 180 ],
+            [ 'AppIcon 120', 120 ],
+            [ 'AppIcon', 57 ],
+            [ 'AppIcon@2x', 114 ]
+        ]
     }
 });
 
@@ -3902,7 +5670,7 @@ mios.icons.push({
     name: 'Steam',
     bundle_id: 'com.valvesoftware.Steam',
     app_id: 'Steam.app',
-    psd_id: 'steam',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Steam57', 57 ],
@@ -3921,7 +5689,7 @@ mios.icons.push({
     name: 'Strava Running and Cycling',
     bundle_id: 'com.strava.stravaride',
     app_id: 'Strava.app',
-    psd_id: 'strava_running_cycling',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3931,7 +5699,7 @@ mios.icons.push({
     name: 'Strong',
     bundle_id: 'com.cameronchow.Strong',
     app_id: 'Strong.app ',
-    psd_id: 'strong',
+    psd_id: false,
     icons: {
         custom: [
             [ 'AppIcon-iOS729x29',          29 ],
@@ -3968,7 +5736,7 @@ mios.icons.push({
             [ 'AppIcon-iOS776x76@2x',       152 ],
             [ 'AppIcon-iOS776x76@2x~ipad',  152 ],
 
-            [ 'AppIcon-iOS7120x120',        120 ],
+            [ 'AppIcon-iOS7120x120',        120 ]
         ]
     }
 });
@@ -3977,7 +5745,7 @@ mios.icons.push({
     name: 'Sunrise Calendar',
     bundle_id: 'am.sunrise.ios',
     app_id: 'sunrise-ios.app ',
-    psd_id: 'sunrise_calendar',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -3987,7 +5755,7 @@ mios.icons.push({
     name: 'Super',
     bundle_id: 'me.super.Super',
     app_id: 'Super.app ',
-    psd_id: 'super',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -4002,7 +5770,7 @@ mios.icons.push({
     name: 'Superimpose',
     bundle_id: 'com.beltola.superimpose',
     app_id: 'Superimpose.app',
-    psd_id: 'superimpose',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -4013,7 +5781,7 @@ mios.icons.push({
     name: 'Swarm',
     bundle_id: 'com.foursquare.robin',
     app_id: 'Swarm.app',
-    psd_id: 'swarm',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4023,7 +5791,7 @@ mios.icons.push({
     name: 'Swift Key',
     bundle_id: 'com.swiftkey.SwiftKeyApp',
     app_id: 'SwiftKeyApp.app',
-    psd_id: 'swiftkey',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4033,7 +5801,7 @@ mios.icons.push({
     name: 'Sybu for Kodi',
     bundle_id: 'za.co.sybu.xbmc',
     app_id: 'xbmc.app',
-    psd_id: 'sybu_for_kodi',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4043,11 +5811,11 @@ mios.icons.push({
     name: 'Tango',
     bundle_id: 'com.sgiggle.Tango',
     app_id: 'Tango.app',
-    psd_id: 'tango',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
-        
+
     }
 });
 
@@ -4055,7 +5823,7 @@ mios.icons.push({
     name: 'Tapatalk',
     bundle_id: 'com.quoord.Tapatalk',
     app_id: 'TapatalkFree.app',
-    psd_id: 'tapatalk',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4065,7 +5833,7 @@ mios.icons.push({
     name: 'TeamViewer: Remote Control',
     bundle_id: 'com.teamviewer.rc',
     app_id: 'RemoteControl.app',
-    psd_id: 'teamviewer',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4075,7 +5843,7 @@ mios.icons.push({
     name: 'Telegram Messenger',
     bundle_id: 'ph.telegra.Telegraph',
     app_id: 'Telegram.app',
-    psd_id: 'telegram_messenger',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -4085,9 +5853,14 @@ mios.icons.push({
     name: 'Telstra',
     bundle_id: 'com.telstra.telstra24x7iphone',
     app_id: 'Telstra 24x7.app',
-    psd_id: 'telstra',
+    psd_id: false,
     icons: {
-        icon: true
+        appicon: true,
+        icon: true,
+        custom: [
+            [ 'Icon-80', 80 ],
+            [ 'Icon-120', 120 ]
+        ]
     }
 });
 
@@ -4095,7 +5868,7 @@ mios.icons.push({
     name: 'Tinder',
     bundle_id: 'com.cardify.tinder',
     app_id: 'Tinder.app',
-    psd_id: 'tinder',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4103,9 +5876,9 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'ToDoMovies',
-    bundle_id: 'TodoMovies.app',
-    app_id: 'com.taphive.todomovies3',
-    psd_id: 'todomovies',
+    bundle_id: 'com.taphive.todomovies3',
+    app_id: 'TodoMovies.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4115,7 +5888,7 @@ mios.icons.push({
     name: 'Transcynd',
     bundle_id: 'us.compatic.Transcynd',
     app_id: 'Transcynd.app',
-    psd_id: 'transcynd',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4125,7 +5898,7 @@ mios.icons.push({
     name: 'Transit App',
     bundle_id: 'com.samvermette.Transit',
     app_id: 'Transit.app',
-    psd_id: 'transit_app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4135,7 +5908,7 @@ mios.icons.push({
     name: 'Trivia Crack',
     bundle_id: 'com.etermax.preguntados',
     app_id: 'Preguntados.app',
-    psd_id: 'trivia_crack',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4145,7 +5918,7 @@ mios.icons.push({
     name: 'Tubex for YouTube',
     bundle_id: 'com.baslas.tubex',
     app_id: 'Tubex.app',
-    psd_id: 'tubex_for_youtube',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4155,7 +5928,7 @@ mios.icons.push({
     name: 'Tumblr',
     bundle_id: 'com.tumblr.tumblr',
     app_id: 'Tumblr.app',
-    psd_id: 'tumblr',
+    psd_id: false,
     icons: {
         custom: [
             [ 'TumblrIcon29x29@2x', 58 ],
@@ -4176,7 +5949,7 @@ mios.icons.push({
     name: 'TuneIn Radio',
     bundle_id: 'com.tunein.TuneInRadio',
     app_id: 'TuneIn Radio.app',
-    psd_id: 'tunein_radio',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4186,7 +5959,7 @@ mios.icons.push({
     name: 'TurboTax Tax Preparation',
     bundle_id: 'com.intuit.turbotax',
     app_id: 'TurboTax.app',
-    psd_id: 'turbotax_tax_preparation',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4196,7 +5969,7 @@ mios.icons.push({
     name: 'Turf Wars',
     bundle_id: 'com.meanfreepathllc.turfwarslite',
     app_id: 'TurfWars.app',
-    psd_id: 'turf_wars',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4206,7 +5979,7 @@ mios.icons.push({
     name: 'TV Guide',
     bundle_id: 'com.roundbox.TVGuide',
     app_id: false,
-    psd_id: 'tv_guide',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4216,7 +5989,7 @@ mios.icons.push({
     name: 'TWC TV',
     bundle_id: 'com.timewarnercable.simulcast',
     app_id: 'TWCTV.app',
-    psd_id: 'twc_tv',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -4226,7 +5999,7 @@ mios.icons.push({
     name: 'Tweetbot',
     bundle_id: 'com.tapbots.Tweetbot3',
     app_id: 'Tweetbot.app',
-    psd_id: 'tweetbot',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4236,7 +6009,7 @@ mios.icons.push({
     name: 'Twitch',
     bundle_id: 'tv.twitch',
     app_id: 'Twitch.app',
-    psd_id: 'twitch',
+    psd_id: false,
     icons: {
         custom: [
             [ 'TwitchAppIcon29x29@2x', 58 ],
@@ -4256,7 +6029,7 @@ mios.icons.push({
     name: 'Twitter',
     bundle_id: 'com.atebits.Tweetie2',
     app_id: 'Twitter.app',
-    psd_id: 'twitter',
+    psd_id: false,
     icons: {
         custom: [
             [ 'ProductionAppIcon57x57', 57 ],
@@ -4272,12 +6045,39 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Twitterrific 5',
+    bundle_id: 'com.iconfactory.Blackbird',
+    app_id: 'Twitterrific.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
+    name: 'Two Dots',
+    bundle_id: 'com.weplaydots.twodots',
+    app_id: 'twodots.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
+mios.icons.push({
     name: 'Uber',
     bundle_id: 'com.ubercab.UberClient',
     app_id: 'UberClient.app',
-    psd_id: 'uber',
+    psd_id: false,
     icons: {
-        icon: true
+        icon: true,
+        custom: [
+            [ 'Icon40', 40 ],
+            [ 'Icon40@2x', 80 ],
+            [ 'Icon60', 60 ],
+            [ 'Icon60@2x', 120 ],
+            [ 'Icon60@3x', 180 ]
+        ]
     }
 });
 
@@ -4285,7 +6085,7 @@ mios.icons.push({
     name: 'UpToDate',
     bundle_id: 'com.uptodate.uptodate',
     app_id: 'uptodate.app',
-    psd_id: 'uptodate',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -4304,7 +6104,7 @@ mios.icons.push({
     name: 'Urban Spoon',
     bundle_id: 'com.urbanspoon.urbanspin',
     app_id: 'urbanspin.app',
-    psd_id: 'urbanspoon',
+    psd_id: false,
     icons: {
         icon: true,
         custom: [
@@ -4319,7 +6119,7 @@ mios.icons.push({
     name: 'Vainglory',
     bundle_id: 'com.superevilmegacorp.vainglory.iphone',
     app_id: 'GameKindred.app',
-    psd_id: 'vainglory',
+    psd_id: false,
     icons: {
         custom: [
             [ 'iOS6iPad', 72 ],
@@ -4341,7 +6141,7 @@ mios.icons.push({
     name: 'Venmo - International',
     bundle_id: 'net.kortina.labs.Venmo',
     app_id: 'Venmo.app',
-    psd_id: 'venmo',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -4355,7 +6155,7 @@ mios.icons.push({
     name: 'Verizon Cloud',
     bundle_id: 'com.verizon.cloud',
     app_id: 'Verizon.app',
-    psd_id: 'verizon_cloud',
+    psd_id: false,
     icons: {
         icon: true
     }
@@ -4365,7 +6165,7 @@ mios.icons.push({
     name: 'Verizon My Verizon',
     bundle_id: 'com.vzw.hss.myverizon',
     app_id: 'My Verizon.app',
-    psd_id: 'verizon_my_verizon ',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true,
@@ -4384,7 +6184,7 @@ mios.icons.push({
     name: 'Vevo',
     bundle_id: 'com.vevo.iphone',
     app_id: 'VEVO.app',
-    psd_id: 'vevo',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4394,7 +6194,7 @@ mios.icons.push({
     name: 'Viber',
     bundle_id: 'com.viber',
     app_id: 'Viber.app',
-    psd_id: 'viber',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4404,7 +6204,7 @@ mios.icons.push({
     name: 'Vimeo',
     bundle_id: 'com.vimeo',
     app_id: 'Vimeo.app',
-    psd_id: 'vimeo',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4414,7 +6214,7 @@ mios.icons.push({
     name: 'VINE',
     bundle_id: 'com.vine.iphone',
     app_id: 'iphone.app',
-    psd_id: 'vine',
+    psd_id: false,
     icons: {
         custom: [
             [ '29', 29 ],
@@ -4447,7 +6247,7 @@ mios.icons.push({
             [ 'ReleaseIcon72x72@2x~ipad', 144 ],
             [ 'ReleaseIcon72x72~ipad', 72 ],
             [ 'ReleaseIcon76x76@2x~ipad', 152 ],
-            [ 'ReleaseIcon76x76~ipad', 76 ],
+            [ 'ReleaseIcon76x76~ipad', 76 ]
         ]
     }
 });
@@ -4456,7 +6256,7 @@ mios.icons.push({
     name: 'Visage Lab',
     bundle_id: 'com.vicman.visagelab',
     app_id: 'VisageLab.app',
-    psd_id: 'visage_lab',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4464,11 +6264,21 @@ mios.icons.push({
 
 mios.icons.push({
     name: 'Visage Lab Pro',
-    bundle_id: 'com.vicman.visagelabpro',
+    bundle_id: 'com.vicman.visagelabprohd',
     app_id: 'VisageLab_PRO.app',
-    psd_id: 'visage_lab_pro',
+    psd_id: false,
     icons: {
-        appicon: true
+        custom: [
+            [ 'AppIcon-357x57', 57 ],
+            [ 'AppIcon-357x57@2x', 114 ],
+            [ 'AppIcon-360x60@2x', 120 ],
+            [ 'AppIcon-360x60@3x', 180 ],
+            [ 'AppIcon-372x72@2x~ipad', 144 ],
+            [ 'AppIcon-372x72~ipad', 72 ],
+            [ 'AppIcon-376x76@2x~ipad', 156 ],
+            [ 'AppIcon-376x76~ipad', 76 ]
+        ]
+
     }
 });
 
@@ -4476,7 +6286,7 @@ mios.icons.push({
     name: 'Visage Lab Pro HD',
     bundle_id: 'com.vicman.visagelabprohd',
     app_id: 'VisageLab_PRO_HD.app',
-    psd_id: 'visage_lab_pro',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4486,7 +6296,7 @@ mios.icons.push({
     name: 'WakeUp',
     bundle_id: 'com.tmadonia.WakeUp',
     app_id: false,
-    psd_id: 'wakeup',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4496,7 +6306,7 @@ mios.icons.push({
     name: 'Walgreens',
     bundle_id: 'com.usablenet.walgreens',
     app_id: 'Sparkle.app',
-    psd_id: 'walgreens',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -4504,10 +6314,31 @@ mios.icons.push({
 });
 
 mios.icons.push({
+    name: 'Wallapop',
+    bundle_id: 'com.secondhanding.WallaPop',
+    app_id: 'Wallapop.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'AppIcon-AppStore29x29@2x', 58 ],
+            [ 'AppIcon-AppStore29x29@2x~ipad', 58 ],
+            [ 'AppIcon-AppStore29x29~ipad', 29 ],
+            [ 'AppIcon-AppStore40x40@2x', 80 ],
+            [ 'AppIcon-AppStore40x40@2x~ipad', 80 ],
+            [ 'AppIcon-AppStore40x40@3x', 120 ],
+            [ 'AppIcon-AppStore40x40~ipad', 40 ],
+            [ 'AppIcon-AppStore60x60@2x', 120 ],
+            [ 'AppIcon-AppStore76x76@2x~ipad', 152 ],
+            [ 'AppIcon-AppStore76x76~ipad', 76 ]
+        ]
+    }
+});
+
+mios.icons.push({
     name: 'Wallet',
     bundle_id: 'com.acrylic.Wallet',
     app_id: 'Wallet.app',
-    psd_id: 'wallet',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-Settings', 29 ],
@@ -4524,18 +6355,36 @@ mios.icons.push({
     name: 'Walmart',
     bundle_id: 'com.walmart.electronics',
     app_id: 'Walmart.app',
-    psd_id: 'walmart',
+    psd_id: false,
     icons: {
-        icon: true
+        custom: [
+            [ 'Icon-120', 120 ],
+            [ 'Icon-29', 29 ],
+            [ 'Icon-29@2x', 58 ],
+            [ 'Icon-57', 57 ],
+            [ 'Icon-57@2x', 114 ],
+            [ 'Icon-80', 80 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Wattpad',
+    bundle_id: 'com.fivemobile.wattpad',
+    app_id: 'Wattpad.app',
+    psd_id: false,
+    icons: {
+        appicon: true
     }
 });
 
 mios.icons.push({
     name: 'Waze',
-    bundle_id: 'Waze.app',
-    app_id: 'com.waze.iphone',
-    psd_id: 'waze',
+    bundle_id: 'com.waze.iphone',
+    app_id: 'Waze.app',
+    psd_id: false,
     icons: {
+        appicon: true,
         custom: [
             [ '29x29', 29 ],
             [ '40x40', 40 ],
@@ -4559,7 +6408,7 @@ mios.icons.push({
     name: 'We <3 It',
     bundle_id: 'com.weheartit',
     app_id: 'weheartit.app',
-    psd_id: 'we_love_it',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4569,7 +6418,7 @@ mios.icons.push({
     name: 'The Weather Channel',
     bundle_id: 'com.weather.TWC',
     app_id: 'iPhone.app',
-    psd_id: 'weather_channel',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4578,24 +6427,10 @@ mios.icons.push({
 mios.icons.push({
     name: 'Weather Underground',
     bundle_id: 'com.wunderground.weatherunderground',
-    app_id: 'Weather Underground.app ',
-    psd_id: 'weather_underground',
+    app_id: 'wuflagship.app',
+    psd_id: false,
     icons: {
-        custom: [
-            [ 'icon_29', 29 ],
-            [ 'icon_40', 40 ],
-            [ 'icon_44', 44 ],
-            [ 'icon_57', 57 ],
-            [ 'icon_58', 58 ],
-            [ 'icon_60', 60 ],
-            [ 'icon_72', 72 ],
-            [ 'icon_76', 76 ],
-            [ 'icon_80', 80 ],
-            [ 'icon_114', 114 ],
-            [ 'icon_120', 120 ],
-            [ 'icon_144', 144 ],
-            [ 'icon_152', 152 ]
-        ]
+        appicon: true
     }
 });
 
@@ -4603,7 +6438,7 @@ mios.icons.push({
     name: 'WeChat',
     bundle_id: 'com.tencent.xin',
     app_id: 'MicroMessenger.app',
-    psd_id: 'wechat',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -4617,7 +6452,7 @@ mios.icons.push({
     name: 'Wegmans',
     bundle_id: 'com.wegmans.wegmansapp',
     app_id: 'Wegmans.app',
-    psd_id: 'wegmans',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4627,7 +6462,7 @@ mios.icons.push({
     name: 'Weibo',
     bundle_id: 'com.sina.weibo',
     app_id: 'Weibo.app',
-    psd_id: 'weibo',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon', 60 ],
@@ -4642,7 +6477,7 @@ mios.icons.push({
     name: 'Wells Fargo',
     bundle_id: 'com.wf.mobilebanking',
     app_id: 'Wells_Fargo_Mobile_Banking_iPhone.app',
-    psd_id: 'wells_fargo',
+    psd_id: false,
     icons: {
         custom: [
             [ 'wfAppIcon', 60 ],
@@ -4655,7 +6490,7 @@ mios.icons.push({
     name: 'WhatsApp',
     bundle_id: 'net.whatsapp.WhatsApp',
     app_id: 'WhatsApp.app',
-    psd_id: 'whatsapp',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Icon-Settings', 29 ],
@@ -4677,7 +6512,7 @@ mios.icons.push({
     name: 'Wikipanion',
     bundle_id: 'com.laya.osiris.wikipanion',
     app_id: 'Wikipanion.app',
-    psd_id: 'wikipanion',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Wikipanion', 60 ],
@@ -4703,7 +6538,7 @@ mios.icons.push({
     name: 'Wikipanion iPad',
     bundle_id: 'com.laya.osiris.wikipanion.ipad',
     app_id: 'Wikipanion.app',
-    psd_id: 'wikipanion',
+    psd_id: false,
     icons: {
         custom: [
             [ 'Wikipanion', 60 ],
@@ -4729,7 +6564,7 @@ mios.icons.push({
     name: 'Wikipedia',
     bundle_id: 'org.wikimedia.wikipedia',
     app_id: 'Wikipedia.app',
-    psd_id: 'wikipedia',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4739,15 +6574,52 @@ mios.icons.push({
     name: 'Winterboard',
     bundle_id: 'com.saurik.WinterBoard',
     app_id: 'WinterBoard.app',
-    psd_id: 'winterboard',
+    psd_id: false,
     icons: false
+});
+
+mios.icons.push({
+    name: 'Wiper',
+    bundle_id: 'com.gowiper.wiper',
+    app_id: 'Wiper.app',
+    psd_id: false,
+    icons: {
+        custom: [
+            [ 'WiperAppIcon29x29', 29 ],
+            [ 'WiperAppIcon29x29@2x', 58 ],
+            [ 'WiperAppIcon29x29@2x~ipad', 58 ],
+            [ 'WiperAppIcon29x29~ipad', 29 ],
+            [ 'WiperAppIcon40x40@2x', 80 ],
+            [ 'WiperAppIcon40x40@2x~ipad', 80 ],
+            [ 'WiperAppIcon40x40~ipad', 40 ],
+            [ 'WiperAppIcon50x50@2x~ipad', 100 ],
+            [ 'WiperAppIcon50x50~ipad', 50 ],
+            [ 'WiperAppIcon57x57', 57 ],
+            [ 'WiperAppIcon57x57@2x', 114 ],
+            [ 'WiperAppIcon60x60@2x', 120 ],
+            [ 'WiperAppIcon72x72@2x~ipad', 144 ],
+            [ 'WiperAppIcon72x72~ipad', 72 ],
+            [ 'WiperAppIcon76x76@2x~ipad', 152 ],
+            [ 'WiperAppIcon76x76~ipad', 76 ]
+        ]
+    }
+});
+
+mios.icons.push({
+    name: 'Wish',
+    bundle_id: 'com.contextlogic.Wish',
+    app_id: 'Wish.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
 });
 
 mios.icons.push({
     name: 'Wolfram Alpha',
     bundle_id: 'com.wolframalpha.wolframalpha',
     app_id: false,
-    psd_id: 'wolfram_alpha',
+    psd_id: false,
     icons: {
         custom: [
             [ 'WolframAlpha-AppIcon57x57',          57 ],
@@ -4757,7 +6629,7 @@ mios.icons.push({
             [ 'WolframAlpha-AppIcon72x72~ipad',     72 ],
             [ 'WolframAlpha-AppIcon72x72@2x~ipad',  144 ],
             [ 'WolframAlpha-AppIcon76x76~ipad',     76 ],
-            [ 'WolframAlpha-AppIcon76x76@2x~ipad',  152 ],
+            [ 'WolframAlpha-AppIcon76x76@2x~ipad',  152 ]
         ]
     }
 });
@@ -4766,7 +6638,7 @@ mios.icons.push({
     name: 'Words with Friends Paid',
     bundle_id: 'com.newtoyinc.WordsWithFriendsPaid',
     app_id: 'WordsWithFriendsPaid.app',
-    psd_id: 'words_with_friends_paid',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4776,7 +6648,7 @@ mios.icons.push({
     name: 'World Lens',
     bundle_id: 'com.questvisual.MobileTranslator',
     app_id: 'WordLens.app ',
-    psd_id: 'world_lens',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4786,7 +6658,7 @@ mios.icons.push({
     name: 'Wunderlist',
     bundle_id: 'com.6wunderkinder.wunderlistmobile',
     app_id: 'Wunderlist.app',
-    psd_id: 'wunderlist',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4796,7 +6668,7 @@ mios.icons.push({
     name: 'X Mod Games',
     bundle_id: 'com.flamingo.XModGame',
     app_id: 'XModGame.app',
-    psd_id: 'x_mod_games',
+    psd_id: false,
     icons: {
         custom: [
             [ 'icon_57', 57 ],
@@ -4817,7 +6689,7 @@ mios.icons.push({
     name: 'XBMC',
     bundle_id: 'org.xbmc.xbmc-ios',
     app_id: 'XBMC.app',
-    psd_id: 'xbmc',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4827,7 +6699,7 @@ mios.icons.push({
     name: 'Xero',
     bundle_id: 'JEC2FK53N4.com.xero.XeroTouch',
     app_id: 'Xero Touch.app',
-    psd_id: 'xero',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4837,7 +6709,7 @@ mios.icons.push({
     name: 'Xfinity Conenct',
     bundle_id: 'com.Comcast.ComcastOTT',
     app_id: 'XfinityConnect.app',
-    psd_id: 'xfinity_connect',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4847,7 +6719,7 @@ mios.icons.push({
     name: 'Xfinity MyAccount',
     bundle_id: 'com.comcast.cim.myaccount',
     app_id: 'XfinityMyAccount.app',
-    psd_id: 'xfinity_myaccount',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4857,7 +6729,7 @@ mios.icons.push({
     name: 'Xfinity Play',
     bundle_id: 'com.comcast.cim.xplay',
     app_id: 'XPlay.app',
-    psd_id: 'xfinity_play',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4867,11 +6739,12 @@ mios.icons.push({
     name: 'Xfinity Remote',
     bundle_id: 'com.comcast.cim.xfinitytv',
     app_id: 'XfinityRemote.app',
-    psd_id: 'xfinity_remote',
+    psd_id: false,
     icons: {
+        appicon: true,
         icon: true,
         custom: [
-            [ 'xfinity-72x72', 72 ]
+            [ 'Icon-120', 120 ]
         ]
     }
 });
@@ -4880,9 +6753,21 @@ mios.icons.push({
     name: 'XKit',
     bundle_id: 'com.StudioXenix.XKit',
     app_id: false,
-    psd_id: 'xkit',
+    psd_id: false,
     icons: {
-        appicon: true
+        custom: [
+            [ 'AppIcon-176x76~ipad', 76 ],
+            [ 'AppIcon-176x76@2x~ipad', 152 ],
+            [ 'AppIcon-172x72~ipad', 72 ],
+            [ 'AppIcon-172x72@2x~ipad', 144 ],
+            [ 'AppIcon-160x60@2x', 120 ],
+            [ 'AppIcon-160x60@3x', 180 ],
+            [ 'AppIcon-140x40~ipad', 40 ],
+            [ 'AppIcon-140x40@2x~ipad', 80 ],
+            [ 'AppIcon-129x29', 29 ],
+            [ 'AppIcon-129x29@2x', 58 ],
+            [ 'AppIcon-129x29@3x', 87 ]
+        ]
     }
 });
 
@@ -4890,7 +6775,7 @@ mios.icons.push({
     name: 'Yahoo',
     bundle_id: 'com.yahoo.frontpage',
     app_id: 'com.yahoo.frontpage-314036-distribution.app',
-    psd_id: 'yahoo',
+    psd_id: false,
     icons: {
         appicon: true,
         icon: true
@@ -4901,7 +6786,7 @@ mios.icons.push({
     name: 'Yahoo Fantasy Football',
     bundle_id: 'com.yahoo.ffootball2009',
     app_id: 'com.yahoo.mobile.ios.fantasyfootball-2863-distribution.app',
-    psd_id: 'yahoo_fantasy',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4911,44 +6796,44 @@ mios.icons.push({
     name: 'Yahoo Mail',
     bundle_id: 'com.yahoo.Aerogram',
     app_id: 'com.yahoo.Aerogram-34519-distribution.app',
-    psd_id: 'yahoo_mail',
+    psd_id: false,
     icons: {
         custom: [
-            [ 'Aerogram App Icon29x29',          29 ],
-            [ 'Aerogram App Icon29x29~ipad',     29 ],
-            [ 'Aerogram App Icon29x29@2x',       58 ],
-            [ 'Aerogram App Icon29x29@2x~ipad',  58 ],
-            [ 'Aerogram App Icon29x29@3x',       87 ],
-            [ 'Aerogram App Icon29x29@3x~ipad',  87 ],
+            [ 'Aerogram App Icon29x29', 29 ],
+            [ 'Aerogram App Icon29x29~ipad', 29 ],
+            [ 'Aerogram App Icon29x29@2x', 58 ],
+            [ 'Aerogram App Icon29x29@2x~ipad', 58 ],
+            [ 'Aerogram App Icon29x29@3x', 87 ],
+            [ 'Aerogram App Icon29x29@3x~ipad', 87 ],
 
-            [ 'Aerogram App Icon40x40',          40 ],
-            [ 'Aerogram App Icon40x40~ipad',     40 ],
-            [ 'Aerogram App Icon40x40@2x',       80 ],
-            [ 'Aerogram App Icon40x40@2x~ipad',  80 ],
-            [ 'Aerogram App Icon40x40@3x',       120 ],
-            [ 'Aerogram App Icon40x40@3x~ipad',  120 ],
+            [ 'Aerogram App Icon40x40', 40 ],
+            [ 'Aerogram App Icon40x40~ipad', 40 ],
+            [ 'Aerogram App Icon40x40@2x', 80 ],
+            [ 'Aerogram App Icon40x40@2x~ipad', 80 ],
+            [ 'Aerogram App Icon40x40@3x', 120 ],
+            [ 'Aerogram App Icon40x40@3x~ipad', 120 ],
 
-            [ 'Aerogram App Icon50x50',          50 ],
-            [ 'Aerogram App Icon50x50@2x',       100 ],
+            [ 'Aerogram App Icon50x50', 50 ],
+            [ 'Aerogram App Icon50x50@2x', 100 ],
 
-            [ 'Aerogram App Icon57x57',          57 ],
-            [ 'Aerogram App Icon57x57@2x',       114 ],
+            [ 'Aerogram App Icon57x57', 57 ],
+            [ 'Aerogram App Icon57x57@2x', 114 ],
 
-            [ 'Aerogram App Icon60x60',          60 ],
-            [ 'Aerogram App Icon60x60@2x',       120 ],
-            [ 'Aerogram App Icon60x60@3x',       180 ],
+            [ 'Aerogram App Icon60x60', 60 ],
+            [ 'Aerogram App Icon60x60@2x', 120 ],
+            [ 'Aerogram App Icon60x60@3x', 180 ],
 
-            [ 'Aerogram App Icon72x72',          72 ],
-            [ 'Aerogram App Icon72x72~ipad',     72 ],
-            [ 'Aerogram App Icon72x72@2x',       144 ],
-            [ 'Aerogram App Icon72x72@2x~ipad',  144 ],
+            [ 'Aerogram App Icon72x72', 72 ],
+            [ 'Aerogram App Icon72x72~ipad', 72 ],
+            [ 'Aerogram App Icon72x72@2x', 144 ],
+            [ 'Aerogram App Icon72x72@2x~ipad', 144 ],
 
-            [ 'Aerogram App Icon76x76',          76 ],
-            [ 'Aerogram App Icon76x76~ipad',     76 ],
-            [ 'Aerogram App Icon76x76@2x',       152 ],
-            [ 'Aerogram App Icon76x76@2x~ipad',  152 ],
+            [ 'Aerogram App Icon76x76', 76 ],
+            [ 'Aerogram App Icon76x76~ipad', 76 ],
+            [ 'Aerogram App Icon76x76@2x', 152 ],
+            [ 'Aerogram App Icon76x76@2x~ipad', 152 ],
 
-            [ 'Aerogram App Icon120x120',        120 ],
+            [ 'Aerogram App Icon120x120', 120 ]
         ]
     }
 });
@@ -4957,7 +6842,7 @@ mios.icons.push({
     name: 'Yahoo News',
     bundle_id: 'com.yahoo.atom',
     app_id: 'com.yahoo.atom-1536-distribution.app',
-    psd_id: 'yahoo_news',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4967,7 +6852,7 @@ mios.icons.push({
     name: 'Yahoo Weather',
     bundle_id: 'com.yahoo.weather',
     app_id: 'com.yahoo.weather-34547-distribution.app',
-    psd_id: 'yahoo_weather',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4977,7 +6862,7 @@ mios.icons.push({
     name: 'YB',
     bundle_id: 'com.maxandcodesign.yo-bitch',
     app_id: 'YB.app',
-    psd_id: 'yb',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -4987,7 +6872,7 @@ mios.icons.push({
     name: 'Yelp',
     bundle_id: 'com.yelp.yelpiphone',
     app_id: 'Yelp.app',
-    psd_id: 'yelp',
+    psd_id: false,
     icons: {
         appicon: true,
         custom: [
@@ -5002,7 +6887,7 @@ mios.icons.push({
     name: 'Yik Yak',
     bundle_id: 'engineering.locus.chatter',
     app_id: 'Yik Yak.app',
-    psd_id: 'yik_yak',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -5011,8 +6896,8 @@ mios.icons.push({
 mios.icons.push({
     name: 'YNAB',
     bundle_id: 'com.youneedabudget.ynab',
-    app_id: 'YNAB.app ',
-    psd_id: 'ynab',
+    app_id: 'YNAB.app',
+    psd_id: false,
     icons: {
         appicon: true
     }
@@ -5022,8 +6907,19 @@ mios.icons.push({
     name: 'Zedge',
     bundle_id: 'com.zedge.Zedge',
     app_id: 'ZEDGE.app',
-    psd_id: 'zedge',
+    psd_id: false,
     icons: {
         appicon: true
     }
 });
+
+mios.icons.push({
+    name: 'Zoosk',
+    bundle_id: 'com.zoosk.Zoosk',
+    app_id: 'Zoosk.app',
+    psd_id: false,
+    icons: {
+        appicon: true
+    }
+});
+
