@@ -71,8 +71,24 @@ module.exports = function(grunt) {
                 }
             }
 
-        }
+        },
 
+        rsync: {
+
+            options: {
+                args: ["-avhzS --progress"],
+                recursive: true
+            },
+
+            dev: {
+                options: {
+                    src: "dist/mios",
+                    dest: "/Library/Themes",
+                    host: "root@000.000.000",
+                }
+            }
+
+        }
 
     });
 
@@ -148,6 +164,10 @@ module.exports = function(grunt) {
     grunt.registerTask('test', [
         'concat:build',
         'extendscript:test_files'
+    ]);
+
+    grunt.registerTask('sync', [
+        'rsync:dev'
     ]);
 
     grunt.registerTask('dev', [
