@@ -31,7 +31,7 @@ module.exports = function(grunt) {
             build_files: {
 
                 options: {
-                    app: 'Adobe Photoshop CC 2014',
+                    app: 'Adobe Photoshop CC 2015',
                     args: [ "compressed" ]
                 },
 
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
             test_files: {
 
                 options: {
-                    app: 'Adobe Photoshop CC 2014',
+                    app: 'Adobe Photoshop CC 2015',
                     args: [ "test" ]
                 },
 
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 
             dev: {
                 options: {
-                    name: 'minimal.iOS.8',
+                    name: 'mios',
                     control: 'control-dev',
                     postfix: '.dev'
                 }
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 
             prod: {
                 options: {
-                    name: 'minimal.iOS.8',
+                    name: 'mios',
                     control: 'control-prod'
                 }
             }
@@ -84,7 +84,7 @@ module.exports = function(grunt) {
                 options: {
                     src: "dist/mios",
                     dest: "/Library/Themes",
-                    host: "root@000.000.000",
+                    host: "root@000.000.000.000",
                 }
             }
 
