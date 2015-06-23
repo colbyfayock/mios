@@ -1,4 +1,4 @@
-Package: io.fay.mios
+Package: io.fay.mios.dev
 Name: MiOS
 Version: 1.0.0
 Architecture: iphoneos-arm
