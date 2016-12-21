@@ -1,0 +1,25 @@
+#!/bin/bash
+
+dir_extract='./asdf'
+dir_tar='./'
+tar_name='diff.tar'
+tar_path=$dir_tar$tar_name
+
+live_diff=`git diff --diff-filter=ACMRTUXB origin/master --name-only`
+# live_diff=`git diff --diff-filter=ACMRTUXB live --name-only | grep -E 'templates\/|css\/'`
+
+echo "-> Looking for diff..."
+
+for i in $live_diff;
+do
+	echo "Found: $i";
+done;
+
+echo "-> Creating tarball: $tar_path"
+
+tar -cvf $tar_path $live_diff
+
+echo "-> $tar_name created"
+echo "-> Extracting tar to: $dir_extract"
+
+tar -xvf $tar_path -C $dir_extract
